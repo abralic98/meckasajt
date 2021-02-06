@@ -94,7 +94,7 @@ let amg;
 
 
 
-    if(url=="http://127.0.0.1:5500/a-klasa-kompaktna.html?bklasa=b"){ //b klasa JEDINA KOJA RADI ZA TABLET I FON NEMAM VOLJE DA RADIM ZA TABLET I FON ZA OSTALE VEC SAMO ZA FON SAM NAPRAVIA
+    if(url=="http://127.0.0.1:5500/a-klasa-kompaktna.html?bklasa=b"|| url=="https://abralic98.github.io/meckasajt/a-klasa-kompaktna.html?bklasa=b"){ //b klasa JEDINA KOJA RADI ZA TABLET I FON NEMAM VOLJE DA RADIM ZA TABLET I FON ZA OSTALE VEC SAMO ZA FON SAM NAPRAVIA
     // SVE JE PO OVOM PRINCIPU SA KLASAMA I FOR PETLJOM FOR IDE i<2 ZATO JER JE SAMO FON I TABLET DA SAM TIA I ZA PC BILO BI 3 
 
     console.log("bklasa");
@@ -262,7 +262,7 @@ let amg;
 
 // LIMUZINE
 
-if(url=="http://127.0.0.1:5500/a-klasa-kompaktna.html?aklasalimuzina=a"){
+if(url=="http://127.0.0.1:5500/a-klasa-kompaktna.html?aklasalimuzina=a" || url=="https://abralic98.github.io/meckasajt/a-klasa-kompaktna.html?aklasalimuzina=a"){
     console.log("aklasalimuzina");
 
     window.onload=function(){
@@ -330,7 +330,7 @@ if(url=="http://127.0.0.1:5500/a-klasa-kompaktna.html?aklasalimuzina=a"){
     }
 }
 
-if(url=="http://127.0.0.1:5500/a-klasa-kompaktna.html?cklasalimuzina=c"){
+if(url=="http://127.0.0.1:5500/a-klasa-kompaktna.html?cklasalimuzina=c" || url=="https://abralic98.github.io/meckasajt/a-klasa-kompaktna.html?cklasalimuzina=c"){
     console.log("aklasalimuzina");
 
     window.onload=function(){
@@ -399,7 +399,7 @@ if(url=="http://127.0.0.1:5500/a-klasa-kompaktna.html?cklasalimuzina=c"){
 }
 
 
-if(url=="http://127.0.0.1:5500/a-klasa-kompaktna.html?eklasalimuzina=e"){
+if(url=="http://127.0.0.1:5500/a-klasa-kompaktna.html?eklasalimuzina=e" || url=="https://abralic98.github.io/meckasajt/a-klasa-kompaktna.html?eklasalimuzina=e"){
     console.log("eklasalimuzina");
 
     window.onload=function(){
@@ -469,7 +469,7 @@ if(url=="http://127.0.0.1:5500/a-klasa-kompaktna.html?eklasalimuzina=e"){
 
 
 
-if(url=="http://127.0.0.1:5500/a-klasa-kompaktna.html?sklasalimuzina=s"){
+if(url=="http://127.0.0.1:5500/a-klasa-kompaktna.html?sklasalimuzina=s" || url=="https://abralic98.github.io/meckasajt/a-klasa-kompaktna.html?sklasalimuzina=s"){
     console.log("sklasalimuzina");
 
     window.onload=function(){
