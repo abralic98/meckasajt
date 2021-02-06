@@ -1,0 +1,2424 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    
+    <script src="ostalimodeli.js"></script>
+    <script src="svimodelinavigacija.js"></script>
+    <script src="napomeneifusnote.js"></script>
+    <script src="fonmenutabovi.js"></script>
+    <script src="pcslider.js"></script>
+   
+
+</head>
+<body>
+
+  <div class="mobitel">
+      <div id="desnimenufon" class="desnimenufon">
+        <div class="crnikontenjer">
+          <img id="meckax" src="images/mercedeslogo.png" alt="">
+          <img onclick="zatvoriSve()" id="x" src="images/x.png" alt="">
+        </div>
+
+        <div class="desnimenufonlista">
+          <ul>
+            <li >
+              <p>Mercedes me prijava</p>
+              <img src="images/strelicacrna.png" alt="">
+              <hr class="lin">
+            </li>
+
+            <li onclick="nasiModeli()"> 
+              <p>Nasi Modeli</p>
+              <img src="images/strelicacrna.png" alt="">
+              <hr class="lin">
+            </li>
+
+            <li>
+              <p>Pronadjite i Kupite</p>
+              <img src="images/strelicacrna.png" alt="">
+              <hr class="lin">
+            </li>
+
+            <li onclick="tehnologija()">
+              <p>Tehnologija i Inovacije</p>
+              <img src="images/strelicacrna.png" alt="">
+              <hr class="lin">
+            </li>
+
+            <li>
+              <p>Financiranje</p>
+              <img src="images/strelicacrna.png" alt="">
+              <hr class="lin">
+            </li>
+
+            <li onclick="servis()">
+              <p >Servis i Oprema</p>
+              <img src="images/strelicacrna.png" alt="">
+              <hr class="lin">
+            </li>
+          </ul>
+        </div>
+        
+    </div>
+
+
+    <div id="desnimenufonnasavozila" class="desnimenufonnasavozila">
+      <div class="crnikontenjer">
+        <p id="naslov">Nasi Modeli</p>
+        <img onclick="strelicaNazad()" id="strelicanazad" src="images/arrowdown.png" alt="">
+        <img onclick="zatvoriSve()" id="x" src="images/x.png" alt="">
+      </div>
+
+      <div class="desnimenufonlistanasavozila">
+        <ul>
+          <li onclick="kompakti()">
+            <p>Kompakti</p>
+            <img src="images/strelicacrna.png" alt="">
+            <hr class="lin">
+          </li>
+
+          <li onclick="limuzine()">
+            <p>Limuzine</p>
+            <img src="images/strelicacrna.png" alt="">
+            <hr class="lin">
+          </li>
+
+          <li onclick="karavani()">
+            <p>Karavani</p>
+            <img src="images/strelicacrna.png" alt="">
+            <hr class="lin">
+          </li>
+
+          <li onclick="suvovi()">
+            <p>SUV-ovi</p>
+            <img src="images/strelicacrna.png" alt="">
+            <hr class="lin">
+          </li>
+
+          <li onclick="coupei()">
+            <p>Coupei</p>
+            <img src="images/strelicacrna.png" alt="">
+            <hr class="lin">
+          </li>
+
+          <li onclick="kabrieloti()">
+            <p>Cabrioleti/Roadsteri</p>
+            <img src="images/strelicacrna.png" alt="">
+            <hr class="lin">
+          </li>
+        </ul>
+      </div>
+      
+  </div>
+
+
+  <div id="desnimenufonnasavozilakompakti" class="desnimenufonnasavozilakompakti">
+    <div class="crnikontenjer">
+      <p id="naslov">Nasi Modeli</p>
+      <p id="naslovv">Kompakti</p>
+      <img onclick="strelicaNazad2()" id="strelicanazad" src="images/arrowdown.png" alt="">
+      <img onclick="zatvoriSve()" id="x" src="images/x.png" alt="">
+    </div>
+
+    <div class="desnimenufonlistanasavozila">
+      <ul>
+        <li onclick="window.location.href='a-klasa-kompaktna.html?aklasa=a';">
+          <p>A klasa Kompaktna Limuzina</p>
+          <img id="nevidljivastrelica" src="images/strelicacrna.png" alt="">
+          <hr class="lin">
+        </li>
+
+        <li onclick="window.location.href='a-klasa-kompaktna.html?bklasa=b';">
+          <p>B klasa Sports Tourer</p>
+          <img id="nevidljivastrelica" src="images/strelicacrna.png" alt="">
+          <hr class="lin">
+        </li>
+
+       
+      </ul>
+    </div>
+    
+</div>
+
+    <div id="desnimenufonnasavozilalimuzine" class="desnimenufonnasavozilalimuzine">
+      <div class="crnikontenjer">
+        <p id="naslov">Nasi Modeli</p>
+        <p id="naslovv">Limuzine</p>
+        <img onclick="strelicaNazad2()" id="strelicanazad" src="images/arrowdown.png" alt="">
+        <img onclick="zatvoriSve()" id="x" src="images/x.png" alt="">
+      </div>
+
+      <div class="desnimenufonlistanasavozila">
+        <ul>
+          <li onclick="window.location.href='a-klasa-kompaktna.html?aklasalimuzina=a';">
+            <p>A-klasa Limuzina</p>
+            <img id="nevidljivastrelica" src="images/strelicacrna.png" alt="">
+            <hr class="lin">
+          </li>
+
+          <li onclick="window.location.href='a-klasa-kompaktna.html?cklasalimuzina=c';">
+            <p>C-klasa Limuzina</p>
+            <img id="nevidljivastrelica" src="images/strelicacrna.png" alt="">
+            <hr class="lin">
+          </li>
+
+          <li onclick="window.location.href='a-klasa-kompaktna.html?eklasalimuzina=e';">
+            <p>E-klasa Limuzina</p>
+            <img id="nevidljivastrelica" src="images/strelicacrna.png" alt="">
+            <hr class="lin">
+          </li>
+
+          <li onclick="window.location.href='a-klasa-kompaktna.html?sklasalimuzina=s';">
+            <p>S-klasa Limuzina</p>
+            <img id="nevidljivastrelica" src="images/strelicacrna.png" alt="">
+            <hr class="lin">
+          </li>
+
+        
+        </ul>
+      </div>
+      
+    </div>
+
+
+    <div id="desnimenufonnasavozilakaravani" class="desnimenufonnasavozilakaravani">
+      <div class="crnikontenjer">
+        <p id="naslov">Nasi Modeli</p>
+        <p id="naslovv">Karavani</p>
+        <img onclick="strelicaNazad2()" id="strelicanazad" src="images/arrowdown.png" alt="">
+        <img onclick="zatvoriSve()" id="x" src="images/x.png" alt="">
+      </div>
+
+      <div class="desnimenufonlistanasavozila">
+        <ul>
+          <li onclick="window.location.href='a-klasa-kompaktna.html?karavan=1';">
+            <p>CLA Shooting Brake</p>
+            <img id="nevidljivastrelica" src="images/strelicacrna.png" alt="">
+            <hr class="lin">
+          </li>
+
+          <li onclick="window.location.href='a-klasa-kompaktna.html?karavan=2';">
+            <p>C-klasa Karavan</p>
+            <img id="nevidljivastrelica" src="images/strelicacrna.png" alt="">
+            <hr class="lin">
+          </li>
+
+          <li onclick="window.location.href='a-klasa-kompaktna.html?karavan=3';">
+            <p>E-klasa Karavan</p>
+            <img id="nevidljivastrelica" src="images/strelicacrna.png" alt="">
+            <hr class="lin">
+          </li>
+
+          <li onclick="window.location.href='a-klasa-kompaktna.html?karavan=4';">
+            <p>E-klasa Karavan All Terrain</p>
+            <img id="nevidljivastrelica" src="images/strelicacrna.png" alt="">
+            <hr class="lin">
+          </li>
+
+        
+        </ul>
+      </div>
+      
+    </div>
+
+
+    <div id="desnimenufonnasavozilasuvovi" class="desnimenufonnasavozilasuvovi">
+      <div class="crnikontenjer">
+        <p id="naslov">Nasi Modeli</p>
+        <p id="naslovv">SUV-ovi</p>
+        <img onclick="strelicaNazad2()" id="strelicanazad" src="images/arrowdown.png" alt="">
+        <img onclick="zatvoriSve()" id="x" src="images/x.png" alt="">
+      </div>
+
+      <div class="desnimenufonlistanasavozila">
+        <ul>
+          <li onclick="window.location.href='a-klasa-kompaktna.html?suv=1';">
+            <p>G-klasa Terensko vozilo</p>
+            <img id="nevidljivastrelica" src="images/strelicacrna.png" alt="">
+            <hr class="lin">
+          </li>
+
+          <li onclick="window.location.href='a-klasa-kompaktna.html?suv=2';">
+            <p>GLA SUV</p>
+            <img id="nevidljivastrelica" src="images/strelicacrna.png" alt="">
+            <hr class="lin">
+          </li>
+
+          <li onclick="window.location.href='a-klasa-kompaktna.html?suv=3';">
+            <p>GLB SUV</p>
+            <img id="nevidljivastrelica" src="images/strelicacrna.png" alt="">
+            <hr class="lin">
+          </li>
+
+          <li onclick="window.location.href='a-klasa-kompaktna.html?suv=4';">
+            <p>GLC SUV</p>
+            <img id="nevidljivastrelica" src="images/strelicacrna.png" alt="">
+            <hr class="lin">
+          </li>
+
+          <li onclick="window.location.href='a-klasa-kompaktna.html?suv=5';">
+            <p>GLC Coupe</p>
+            <img id="nevidljivastrelica" src="images/strelicacrna.png" alt="">
+            <hr class="lin">
+          </li>
+
+          <li onclick="window.location.href='a-klasa-kompaktna.html?suv=6';">
+            <p>GLE SUV</p>
+            <img id="nevidljivastrelica" src="images/strelicacrna.png" alt="">
+            <hr class="lin">
+          </li>
+
+        
+        </ul>
+      </div>
+      
+    </div>
+
+
+    <div id="desnimenufonnasavozilacoupei" class="desnimenufonnasavozilacoupei">
+      <div class="crnikontenjer">
+        <p id="naslov">Nasi Modeli</p>
+        <p id="naslovv">Coupei</p>
+        <img onclick="strelicaNazad2()" id="strelicanazad" src="images/arrowdown.png" alt="">
+        <img onclick="zatvoriSve()" id="x" src="images/x.png" alt="">
+      </div>
+
+      <div class="desnimenufonlistanasavozila">
+        <ul>
+          <li onclick="window.location.href='a-klasa-kompaktna.html?coupei=1';">
+            <p>CLA Coupe</p>
+            <img id="nevidljivastrelica" src="images/strelicacrna.png" alt="">
+            <hr class="lin">
+          </li>
+
+          <li onclick="window.location.href='a-klasa-kompaktna.html?coupei=2';">
+            <p>C-klasa Coupe</p>
+            <img id="nevidljivastrelica" src="images/strelicacrna.png" alt="">
+            <hr class="lin">
+          </li>
+
+          <li onclick="window.location.href='a-klasa-kompaktna.html?coupei=3';">
+            <p>CLS Coupe</p>
+            <img id="nevidljivastrelica" src="images/strelicacrna.png" alt="">
+            <hr class="lin">
+          </li>
+
+          <li onclick="window.location.href='a-klasa-kompaktna.html?coupei=4';">
+            <p>E-klasa Coupe</p>
+            <img id="nevidljivastrelica" src="images/strelicacrna.png" alt="">
+            <hr class="lin">
+          </li>
+
+          <li onclick="window.location.href='a-klasa-kompaktna.html?coupei=5';">
+            <p>Mercedes-AMG GT Coupe</p>
+            <img id="nevidljivastrelica" src="images/strelicacrna.png" alt="">
+            <hr class="lin">
+          </li>
+
+          <li onclick="window.location.href='a-klasa-kompaktna.html?coupei=6';">
+            <p>Mercedes-AMG GT Coupe s 4 vrata</p>
+            <img id="nevidljivastrelica" src="images/strelicacrna.png" alt="">
+            <hr class="lin">
+          </li>
+
+        
+        </ul>
+      </div>
+      
+    </div>
+
+
+    <div id="desnimenufonnasavozilakabrieloti" class="desnimenufonnasavozilakabrieloti">
+      <div class="crnikontenjer">
+        <p id="naslov">Nasi Modeli</p>
+        <p id="naslovv">Cabrieloti/Roadsteri</p>
+        <img onclick="strelicaNazad2()" id="strelicanazad" src="images/arrowdown.png" alt="">
+        <img onclick="zatvoriSve()" id="x" src="images/x.png" alt="">
+      </div>
+
+      <div class="desnimenufonlistanasavozila">
+        <ul>
+          <li onclick="window.location.href='a-klasa-kompaktna.html?cabrieloti=1';">
+            <p>SL Roadster</p>
+            <img id="nevidljivastrelica" src="images/strelicacrna.png" alt="">
+            <hr class="lin">
+          </li>
+
+          <li onclick="window.location.href='a-klasa-kompaktna.html?cabrieloti=2';">
+            <p>C-klasa Cabriolet</p>
+            <img id="nevidljivastrelica" src="images/strelicacrna.png" alt="">
+            <hr class="lin">
+          </li>
+
+          <li onclick="window.location.href='a-klasa-kompaktna.html?cabrieloti=3';">
+            <p>E-klasa Cabriolet</p>
+            <img id="nevidljivastrelica" src="images/strelicacrna.png" alt="">
+            <hr class="lin">
+          </li>
+
+          <li onclick="window.location.href='a-klasa-kompaktna.html?cabrieloti=4';">
+            <p>Mercedes-AMG GT Roadster</p>
+            <img id="nevidljivastrelica" src="images/strelicacrna.png" alt="">
+            <hr class="lin">
+          </li>
+
+
+        
+        </ul>
+      </div>
+      
+    </div>
+
+
+
+
+    <div id="desnimenufontehnologija" class="desnimenufontehnologija">
+      <div class="crnikontenjer">
+        <p id="naslov">Tehnologija i Inovacije</p>
+        <img onclick="strelicaNazad3()" id="strelicanazad" src="images/arrowdown.png" alt="">
+        <img onclick="zatvoriSve()" id="x" src="images/x.png" alt="">
+      </div>
+
+      <div class="desnimenufonlistatehnologija">
+        <ul>
+          <li onclick="emobilnost()">
+            <p>E-mobilnost</p>
+            <img src="images/strelicacrna.png" alt="">
+            <hr class="lin">
+          </li>
+
+          <li >
+            <p>MBUX Multimedijski sustav</p>
+            <img id="nevidljivastrelica" src="images/strelicacrna.png" alt="">
+            <hr class="lin">
+          </li>
+
+          <li >
+            <p>Mercedes me connect</p>
+            <img id="nevidljivastrelica" src="images/strelicacrna.png" alt="">
+            <hr class="lin">
+          </li>
+
+          <li>
+            <p>Mercedes-Benz Intelligent Drive</p>
+            <img id="nevidljivastrelica" src="images/strelicacrna.png" alt="">
+            <hr class="lin">
+          </li>
+
+          <li >
+            <p>Mercedes-AMG</p>
+            <img id="nevidljivastrelica" src="images/strelicacrna.png" alt="">
+            <hr class="lin">
+          </li>
+
+          <li >
+            <p>Konceptna vozila & Dizajn</p>
+            <img id="nevidljivastrelica" src="images/strelicacrna.png" alt="">
+            <hr class="lin">
+          </li>
+        </ul>
+      </div>
+      
+  </div>
+
+
+
+  <div id="desnimenufontehnologijaemobilnost" class="desnimenufontehnologijaemobilnost">
+    <div class="crnikontenjer">
+      <p id="naslov">Tehnologija i Inovacije</p>
+      <p id="naslovv">E-mobilnost</p>
+      <img onclick="strelicaNazad4()" id="strelicanazad" src="images/arrowdown.png" alt="">
+      <img onclick="zatvoriSve()" id="x" src="images/x.png" alt="">
+    </div>
+
+    <div class="desnimenufonlistanasavozila">
+      <ul>
+        <li>
+          <p>Pregled</p>
+          <img id="nevidljivastrelica" src="images/strelicacrna.png" alt="">
+          <hr class="lin">
+        </li>
+
+        <li>
+          <p>E-vozila</p>
+          <img id="nevidljivastrelica" src="images/strelicacrna.png" alt="">
+          <hr class="lin">
+        </li>
+
+        <li>
+          <p>Plug-in-Hybrid</p>
+          <img id="nevidljivastrelica" src="images/strelicacrna.png" alt="">
+          <hr class="lin">
+        </li>
+
+        <li>
+          <p>Gorivni clanak</p>
+          <img id="nevidljivastrelica" src="images/strelicacrna.png" alt="">
+          <hr class="lin">
+        </li>
+        <li>
+          <p>Punjenje</p>
+          <img id="nevidljivastrelica" src="images/strelicacrna.png" alt="">
+          <hr class="lin">
+        </li>
+
+
+      
+      </ul>
+    </div>
+    
+  </div>
+
+
+
+  <div id="desnimenufonservis" class="desnimenufonservis">
+    <div class="crnikontenjer">
+      <p id="naslov">Servis i Oprema</p>
+      <img onclick="strelicaNazad4()" id="strelicanazad" src="images/arrowdown.png" alt="">
+      <img onclick="zatvoriSve()" id="x" src="images/x.png" alt="">
+    </div>
+
+    <div class="desnimenufonlistatehnologija">
+      <ul>
+        <li >
+          <p>Aktualne Ponude</p>
+          <img id="nevidljivastrelica" src="images/strelicacrna.png" alt="">
+          <hr class="lin">
+        </li>
+
+        <li >
+          <p>Mercedes me</p>
+          <img id="nevidljivastrelica" src="images/strelicacrna.png" alt="">
+          <hr class="lin">
+        </li>
+
+        <li onclick="digitalna()" >
+          <p>Digitalne usluge i aplikacije</p>
+          <img src="images/strelicacrna.png" alt="">
+          <hr class="lin">
+        </li>
+
+        <li onclick="servisServis()" >
+          <p>Servis i odrzavanje</p>
+          <img src="images/strelicacrna.png" alt="">
+          <hr class="lin">
+        </li>
+
+        <li onclick="dijelovi()">
+          <p>Dijelovi i dodatna oprema</p>
+          <img src="images/strelicacrna.png" alt="">
+          <hr class="lin">
+        </li>
+
+        <li >
+          <p>Upute za uporabu</p>
+          <img id="nevidljivastrelica" src="images/strelicacrna.png" alt="">
+          <hr class="lin">
+        </li>
+
+        <li >
+          <p>Homoglacija</p>
+          <img id="nevidljivastrelica" src="images/strelicacrna.png" alt="">
+          <hr class="lin">
+        </li>
+
+        <li >
+          <p>Collection</p>
+          <img id="nevidljivastrelica" src="images/strelicacrna.png" alt="">
+          <hr class="lin">
+        </li>
+      </ul>
+    </div>
+    
+</div>
+
+
+<div id="desnimenufonservisdigitalna" class="desnimenufonservisdigitalna">
+  <div class="crnikontenjer">
+    <p id="naslov">Servis i Oprema</p>
+    <p id="naslovv">Digitalne usluge i aplikacije</p>
+    <img onclick="strelicaNazad5()" id="strelicanazad" src="images/arrowdown.png" alt="">
+    <img onclick="zatvoriSve()" id="x" src="images/x.png" alt="">
+  </div>
+
+  <div class="desnimenufonlistanasavozila">
+    <ul>
+      <li>
+        <p>Mercedes me ID</p>
+        <img id="nevidljivastrelica" src="images/strelicacrna.png" alt="">
+        <hr class="lin">
+      </li>
+
+      <li>
+        <p>Mercedes me trgovina</p>
+        <img id="nevidljivastrelica" src="images/strelicacrna.png" alt="">
+        <hr class="lin">
+      </li>
+
+      <li>
+        <p>Mercedes me aplikacija</p>
+        <img id="nevidljivastrelica" src="images/strelicacrna.png" alt="">
+        <hr class="lin">
+      </li>
+
+
+
+    
+    </ul>
+  </div>
+  
+</div>
+
+
+<div id="desnimenufonservisdijelovi" class="desnimenufonservisdijelovi">
+  <div class="crnikontenjer">
+    <p id="naslov">Servis i Oprema</p>
+    <p id="naslovv">Dijelovi i dodatna oprema</p>
+    <img onclick="strelicaNazad5()" id="strelicanazad" src="images/arrowdown.png" alt="">
+    <img onclick="zatvoriSve()" id="x" src="images/x.png" alt="">
+  </div>
+
+  <div class="desnimenufonlistanasavozila">
+    <ul>
+      <li>
+        <p>Originalni dijelovi i dodatna oprema</p>
+        <img id="nevidljivastrelica" src="images/strelicacrna.png" alt="">
+        <hr class="lin">
+      </li>
+
+      <li>
+        <p>Posebna dodatna oprema</p>
+        <img id="nevidljivastrelica" src="images/strelicacrna.png" alt="">
+        <hr class="lin">
+      </li>
+
+      <li>
+        <p>Proizvodi za njegu vozila</p>
+        <img id="nevidljivastrelica" src="images/strelicacrna.png" alt="">
+        <hr class="lin">
+      </li>
+
+
+
+    
+    </ul>
+  </div>
+  
+</div>
+
+
+<div id="desnimenufonservisservis" class="desnimenufonservisservis">
+  <div class="crnikontenjer">
+    <p id="naslov">Servis i Oprema</p>
+    <p id="naslovv">Servis i odrzavanje</p>
+    <img onclick="strelicaNazad5()" id="strelicanazad" src="images/arrowdown.png" alt="">
+    <img onclick="zatvoriSve()" id="x" src="images/x.png" alt="">
+  </div>
+
+  <div class="desnimenufonlistanasavozila">
+    <ul>
+      <li>
+        <p>Aktualna ponuda i akcije</p>
+        <img id="nevidljivastrelica" src="images/strelicacrna.png" alt="">
+        <hr class="lin">
+      </li>
+
+      <li>
+        <p>Pregled</p>
+        <img id="nevidljivastrelica" src="images/strelicacrna.png" alt="">
+        <hr class="lin">
+      </li>
+
+      <li>
+        <p>Servisni paketi</p>
+        <img id="nevidljivastrelica" src="images/strelicacrna.png" alt="">
+        <hr class="lin">
+      </li>
+      <li>
+        <p>Pomoc u slucaju nesrece i kvara</p>
+        <img id="nevidljivastrelica" src="images/strelicacrna.png" alt="">
+        <hr class="lin">
+      </li>
+
+
+
+    
+    </ul>
+  </div>
+  
+</div>
+
+
+<div id="desnimenufontehnologijaemobilnost" class="desnimenufontehnologijaemobilnost">
+  <div class="crnikontenjer">
+    <p id="naslov">Tehnologija i Inovacije</p>
+    <p id="naslovv">E-mobilnost</p>
+    <img onclick="strelicaNazad4()" id="strelicanazad" src="images/arrowdown.png" alt="">
+    <img onclick="zatvoriSve()" id="x" src="images/x.png" alt="">
+  </div>
+
+  <div class="desnimenufonlistanasavozila">
+    <ul>
+      <li>
+        <p>Pregled</p>
+        <img id="nevidljivastrelica" src="images/strelicacrna.png" alt="">
+        <hr class="lin">
+      </li>
+
+      <li>
+        <p>E-vozila</p>
+        <img id="nevidljivastrelica" src="images/strelicacrna.png" alt="">
+        <hr class="lin">
+      </li>
+
+      <li>
+        <p>Plug-in-Hybrid</p>
+        <img id="nevidljivastrelica" src="images/strelicacrna.png" alt="">
+        <hr class="lin">
+      </li>
+
+      <li>
+        <p>Gorivni clanak</p>
+        <img id="nevidljivastrelica" src="images/strelicacrna.png" alt="">
+        <hr class="lin">
+      </li>
+      <li>
+        <p>Punjenje</p>
+        <img id="nevidljivastrelica" src="images/strelicacrna.png" alt="">
+        <hr class="lin">
+      </li>
+
+
+    
+    </ul>
+  </div>
+  
+</div>
+
+
+
+    <div id="livimenufon" class="livimenufon">
+      
+
+
+      <div class="livimenulogin">
+        <div class="bekgrand">
+          <img src="mercedesloginskrin.jpg" alt="">
+        </div>
+        <div class="registracijadiv">
+          
+        </div>
+        <a href="#"id="registernow">Register now</a>
+        <img onclick="zatvorilivi()" id="meckax" src="images/mercedeslogo.png" alt="">
+        <p id="user">Welcome Anonymous</p>
+        <div class="loginoblacic">
+          
+          <input id="imejl" placeholder="Username" type="korisnickoime">
+        
+          <input placeholder="Password" >
+
+
+        </div>
+
+        <div class="loginbotun">
+          <p>Login</p>
+        </div>
+
+        
+      </div>
+      
+  </div>
+
+
+
+  
+
+    <div id="crno" class="crno">
+      <p>a</p>
+      <div id="navigacijskamodeli" class="navigacijskamodeli">
+        <ul id="navul">
+            <li onclick="Svimodeli()">
+                <p >Svi Modeli</p> 
+                <img id="sviModeli" src="images/checkmark.svg" alt="">
+                <hr>
+                
+            </li>
+    
+            <li onclick="Electric()">
+              <p  >EQ Electric Intelligence</p> 
+              <img id="electric"  src="images/checkmark.svg" alt="">
+              <hr>
+              
+            </li>
+    
+            <li onclick="Amg()">
+              <p >AMG</p> 
+              <img id="AMG"  src="images/checkmark.svg" alt="">
+              <hr>
+              
+            </li>
+    
+            <li onclick="Maybach()">
+              <p >Maybach</p> 
+              <img id="maybach" src="images/checkmark.svg" alt="">
+              <hr>
+              
+            </li>
+
+            
+    
+            
+    
+            
+        </ul>
+    </div>
+    </div>
+        
+   
+    <div id="kontenjer" class="container">
+
+        <div class="header">
+            <ul class="navigacija">
+                <li><img src="images/carlogo.png" onclick="livimenufunkcija()" class="carlogo" alt="carlogo"></li>
+                <li><img src="images/mercedeslogo.png" class="mercedeslogo" alt="mercedeslogo"></li>
+                <li><img src="images/menu.png" onclick="desnaAnimacija()" class="menuscroll" alt="menu"></li>
+            </ul>
+        </div>
+  
+        
+
+        
+        <div id="prvislider" class="swiper-container">
+            <div id="prvisli" class="swiper-wrapper">
+              <div id="prvisl" class="swiper-slide">
+                <div id="prvis" class="avti">
+                    <img id="img" class="kek"  src="images/mecka1.jpeg" alt="">
+                    <h2>Nova Mercedes-Benz S-klasa</h2>
+                    <p>Brine o onome sto je vazno</p>
+                    <a class="saznajvise" href="#">Saznajte vise</a>                   
+                </div>              
+              </div>
+              
+              <div class="swiper-slide">
+                <div class="avti">
+                    <img class="kek"  src="images/mecka2.jpeg" alt="">
+                    <h2>All Star 2021</h2>
+                    <p>Posebna ponuda vozila dostupnih odmah. Postanite clan najboljeg tima</p>
+                    <a class="saznajvise" href="#">Saznajte vise</a>
+                </div>             
+              </div>
+
+              <div class="swiper-slide">
+                <div class="avti">
+                    <img class="kek"  src="images/mecka3.jpg" alt="">
+                    <h2>All Star 2021</h2>
+                    <p>U svom elementu na gotovo svakom terenu</p>
+                    <a class="saznajvise" href="#">Saznajte vise</a>
+                </div>             
+              </div>
+
+              <div class="swiper-slide">
+                <div class="avti">
+                    <img class="kek"  src="images/mecka4.jpg" alt="">
+                    <h2>All Star 2021</h2>
+                    <p>Iskoristite popuste na artikle iz nase ponude</p>
+                    <a class="saznajvise" href="#">Saznajte vise</a>
+                </div>              
+              </div>
+
+              <div class="swiper-slide">
+                <div class="avti">
+                    <img class="kek"  src="images/mecka5.jpg" alt="">
+                    <h2>All Star 2021</h2>
+                    <p>Posebna ponuda vozila dostupnih odmah. Postanite clan najboljeg tima</p>
+                    <a class="saznajvise" href="#">Saznajte vise</a>
+                </div>             
+              </div>
+              
+            </div>
+            <!-- Add Pagination -->
+            <div class="swiper-pagination"></div>
+          </div>
+
+
+
+        <h2 class="nasavozila">Nasa vozila</h2>
+     
+        <div id="fiksiranimodeli" class="svimodeli">
+          <p id="psvimodeli">Svi modeli</p>
+          <img src="images/arrowdown.png" id="strelicasvimodeli" onclick="nav()" alt="">
+      </div>
+     
+      <div class="slajder">
+        <div class="swiper-container">
+          <div class="swiper-wrapper">
+            <div id="swiper1" onclick="swiperKompakt()" class="swiper-slide"><a href="#komp">Kompakti</a> </div>              
+            <div id="swiper2" onclick="swiperLimuzine()" class="swiper-slide"><a href="#limo">Limuzine</a></div>
+            <div id="swiper3" onclick="swiperKaravan()" class="swiper-slide"><a href="#kara">Karavani</a></div>
+            <div id="swiper4" onclick="swiperSuv()" class="swiper-slide"><a href="#suvo">SUV-ovi</a></div>
+            <div id="swiper5" onclick="swiperCoupei()" class="swiper-slide"><a href="#COUP">Coupei</a></div>
+            <div id="swiper5" onclick="swiperKabrielot()" class="swiper-slide"><a href="#KABR">Cabrieloti & Roadsteri</a></div>
+            
+          </div>
+        </div>
+        
+      </div>
+      <div id="testlinija"> </div>
+      <hr class="lin">
+      
+        
+
+        <div id="komp" class="kompakti">
+            <h2>Kompakti</h2>
+            <div id="1" class="swiper-container">
+                <div id="2" class="swiper-wrapper">
+                    
+                  <div  id="3"class="swiper-slide">
+                    <div  id="4" class="mecke">
+                        <h3>A-klasa Kompaktna limuzina</h3>
+                        <p>od 197.079,00 HRK</p>
+                        <img class="kek" src="images/kompaktne/kompaktna1.webp" alt="">
+                                         
+                    </div>              
+                  </div>
+                  
+                  <div class="swiper-slide">
+                    <div class="mecke">
+                        <h3>A-klasa Kompaktna limuzina</h3>
+                         <p>od 197.079,00 HRK</p>
+                        <img class="kek"  src="images/kompaktne/kompaktna1_2.webp" alt="">
+                        
+                    </div>             
+                  </div>
+    
+                  <div class="swiper-slide">
+                    <div class="mecke">
+                        <h3>A-klasa Kompaktna limuzina</h3>
+                        <p>od 197.079,00 HRK</p>
+                        <img class="kek"  src="images/kompaktne/kompaktna1_3.webp" alt="">
+                    
+                    </div>             
+                  </div>
+    
+                  
+                  
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+              </div>
+
+
+              <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    
+                  <div class="swiper-slide">
+                    <div class="mecke">
+                        <h3>B-klasa Sports Tourer</h3>
+                        <p>od 217.605,00 HRK</p>
+                        <img class="kek" src="images/kompaktne/kompaktna2.webp" alt="">
+                                         
+                    </div>              
+                  </div>
+                  
+                  <div class="swiper-slide">
+                    <div class="mecke">
+                        <h3>B-klasa Sports Tourer</h3>
+                        <p>od 217.605,00 HRK</p>
+                        <img class="kek"  src="images/kompaktne/kompaktna2_2.webp" alt="">
+                        
+                    </div>             
+                  </div>
+    
+                  <div class="swiper-slide">
+                    <div class="mecke">
+                        <h3>B-klasa Sports Tourer</h3>
+                        <p>od 217.605,00 HRK</p>
+                        <img class="kek"  src="images/kompaktne/kompaktna2_3.webp" alt="">
+                    
+                    </div>             
+                  </div>
+    
+                  
+                  
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+              </div>
+           
+            
+        </div>
+
+        <div id="limo" class="limuzine">
+            <h2>Limuzine</h2>
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    
+                  <div class="swiper-slide">
+                    <div class="mecke">
+                        <h3>A-klasa Limuzina</h3>
+                        <p>od 215.100,00 HRK</p>
+                        <img class="kek" src="images/limuzine/limuzina1_1.webp" alt="">
+                                         
+                    </div>              
+                  </div>
+                  
+                  <div class="swiper-slide">
+                    <div class="mecke">
+                        <h3>A-klasa Limuzina</h3>
+                        <p>od 215.100,00 HRK</p>
+                        <img class="kek"  src="images/limuzine/limuzina1_2.webp" alt="">
+                        
+                    </div>             
+                  </div>
+    
+                  <div class="swiper-slide">
+                    <div class="mecke">
+                        <h3>A-klasa Limuzina</h3>
+                        <p>od 215.100,00 HRK</p>
+                        <img class="kek"  src="images/limuzine/limuzina1.webp" alt="">
+                    
+                    </div>             
+                  </div>
+    
+                  
+                  
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+              </div>
+
+              <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    
+                  <div class="swiper-slide">
+                    <div class="mecke">
+                        <h3>C-klasa Limuzina</h3>
+                        <p>od 249.120,00 HRK</p>
+                        <img class="kek" src="images/limuzine/limuzina2_1.webp" alt="">
+                                         
+                    </div>              
+                  </div>
+                  
+                  <div class="swiper-slide">
+                    <div class="mecke">
+                        <h3>C-klasa Limuzina</h3>
+                        <p>od 249.120,00 HRK</p>
+                        <img class="kek"  src="images/limuzine/limuzina2_2.webp" alt="">
+                        
+                    </div>             
+                  </div>
+    
+                  <div class="swiper-slide">
+                    <div class="mecke">
+                        <h3>C-klasa Limuzina</h3>
+                        <p>od 249.120,00 HRK</p>
+                        <img class="kek"  src="images/limuzine/limuzina2.webp" alt="">
+                    
+                    </div>             
+                  </div>
+    
+                  
+                  
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+             
+             </div>
+
+             <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    
+                  <div class="swiper-slide">
+                    <div class="mecke">
+                        <h3>E-klasa Limuzina</h3>
+                        <p>od 437.410,00 HRK</p>
+                        <img class="kek" src="images/limuzine/limuzina3_1.webp" alt="">
+                                         
+                    </div>              
+                  </div>
+                  
+                  <div class="swiper-slide">
+                    <div class="mecke">
+                        <h3>E-klasa Limuzina</h3>
+                        <p>od 437.410,00 HRK</p>
+                        <img class="kek"  src="images/limuzine/limuzina3_2.webp" alt="">
+                        
+                    </div>             
+                  </div>
+    
+                  <div class="swiper-slide">
+                    <div class="mecke">
+                        <h3>E-klasa Limuzina</h3>
+                        <p>od 437.410,00 HRK</p>
+                        <img class="kek"  src="images/limuzine/limuzina3.webp" alt="">
+                    
+                    </div>             
+                  </div>
+    
+                  
+                  
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+             
+             </div>
+
+             <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    
+                  <div class="swiper-slide">
+                    <div class="mecke">
+                        <h3>S-klasa Limuzina</h3>
+                        <p>Dolazi uskoro</p>
+                        <img class="kek" src="images/limuzine/limuzina4_1.webp" alt="">
+                                         
+                    </div>              
+                  </div>
+                  
+                  <div class="swiper-slide">
+                    <div class="mecke">
+                        <h3>S-klasa Limuzina</h3>
+                        <p>Dolazi uskoro</p>
+                        <img class="kek"  src="images/limuzine/limuzina4_2.webp" alt="">
+                        
+                    </div>             
+                  </div>
+    
+                  <div class="swiper-slide">
+                    <div class="mecke">
+                        <h3>S-klasa Limuzina</h3>
+                        <p>Dolazi uskoro</p>
+                        <img class="kek"  src="images/limuzine/limuzina4.webp" alt="">
+                    
+                    </div>             
+                  </div>
+    
+                  
+                  
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+             
+             </div>
+
+             <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    
+                  <div class="swiper-slide">
+                    <div class="mecke">
+                        <h3>S-klasa Limuzina duga</h3>
+                        <p>Dolazi uskoro</p>
+                        <img class="kek" src="images/limuzine/limuzina5_1.webp" alt="">
+                                         
+                    </div>              
+                  </div>
+                  
+                  <div class="swiper-slide">
+                    <div class="mecke">
+                        <h3>S-klasa Limuzina duga</h3>
+                        <p>Dolazi uskoro</p>
+                        <img class="kek"  src="images/limuzine/limuzina5_2.webp" alt="">
+                        
+                    </div>             
+                  </div>
+    
+                  <div class="swiper-slide">
+                    <div class="mecke">
+                        <h3>S-klasa Limuzina duga</h3>
+                        <p>Dolazi uskoro</p>
+                        <img class="kek"  src="images/limuzine/limuzina5.webp" alt="">
+                    
+                    </div>             
+                  </div>
+    
+                  
+                  
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+             
+             </div>
+       
+             <div id="kara" class="karavani">
+                <h2>Karavani</h2>
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        
+                      <div class="swiper-slide">
+                        <div class="mecke">
+                            <h3>CLA Shooting Brake</h3>
+                            <p>od 234.675,00 HRK</p>
+                            <img class="kek" src="images/karavani/karavan1_1.webp" alt="">
+                                             
+                        </div>              
+                      </div>
+                      
+                      <div class="swiper-slide">
+                        <div class="mecke">
+                            <h3>CLA Shooting Brake</h3>
+                            <p>od 234.675,00 HRK</p>
+                            <img class="kek"  src="images/karavani/karavan1_2.webp" alt="">
+                            
+                        </div>             
+                      </div>
+        
+                      <div class="swiper-slide">
+                        <div class="mecke">
+                            <h3>CLA Shooting Brake</h3>
+                            <p>od 234.675,00 HRK</p>
+                            <img class="kek"  src="images/karavani/karavan1.webp" alt="">
+                        
+                        </div>             
+                      </div>
+        
+                      
+                      
+                    </div>
+                    <!-- Add Pagination -->
+                    <div class="swiper-pagination"></div>
+                  </div>
+
+                  <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        
+                      <div class="swiper-slide">
+                        <div class="mecke">
+                            <h3>C-klasa Karavan</h3>
+                            <p>od 216.675,00 HRK</p>
+                            <img class="kek" src="images/karavani/karavan2_1.webp" alt="">
+                                             
+                        </div>              
+                      </div>
+                      
+                      <div class="swiper-slide">
+                        <div class="mecke">
+                            <h3>C-klasa Karavan</h3>
+                            <p>od 216.675,00 HRK</p>
+                            <img class="kek"  src="images/karavani/karavan2_2.webp" alt="">
+                            
+                        </div>             
+                      </div>
+        
+                      <div class="swiper-slide">
+                        <div class="mecke">
+                            <h3>C-klasa Karavan</h3>
+                            <p>od 216.675,00 HRK</p>
+                            <img class="kek"  src="images/karavani/karavan2.webp" alt="">
+                        
+                        </div>             
+                      </div>
+        
+                      
+                      
+                    </div>
+                    <!-- Add Pagination -->
+                    <div class="swiper-pagination"></div>
+                  </div>
+
+                  <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        
+                      <div class="swiper-slide">
+                        <div class="mecke">
+                            <h3>E-klasa Karavan</h3>
+                            <p>od 467.395,00 HRK</p>
+                            <img class="kek" src="images/karavani/karavan3_1.webp" alt="">
+                                             
+                        </div>              
+                      </div>
+                      
+                      <div class="swiper-slide">
+                        <div class="mecke">
+                            <h3>E-klasa Karavan</h3>
+                            <p>od 467.395,00 HRK</p>
+                            <img class="kek"  src="images/karavani/karavan3_2.webp" alt="">
+                            
+                        </div>             
+                      </div>
+        
+                      <div class="swiper-slide">
+                        <div class="mecke">
+                            <h3>E-klasa Karavan</h3>
+                            <p>od 467.395,00 HRK</p>
+                            <img class="kek"  src="images/karavani/karavan3.webp" alt="">
+                        
+                        </div>             
+                      </div>
+        
+                      
+                      
+                    </div>
+                    <!-- Add Pagination -->
+                    <div class="swiper-pagination"></div>
+                  </div>
+
+                  <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        
+                      <div class="swiper-slide">
+                        <div class="mecke">
+                            <h3>E-klasa All-Terrain</h3>
+                            <p>od 583.985,00 HRK</p>
+                            <img class="kek" src="images/karavani/karavan4_1.webp" alt="">
+                                             
+                        </div>              
+                      </div>
+                      
+                      <div class="swiper-slide">
+                        <div class="mecke">
+                            <h3>E-klasa All-Terrain</h3>
+                            <p>od 583.985,00 HRK</p>
+                            <img class="kek"  src="images/karavani/karavan4_2.webp" alt="">
+                            
+                        </div>             
+                      </div>
+        
+                      <div class="swiper-slide">
+                        <div class="mecke">
+                            <h3>E-klasa All-Terrain</h3>
+                            <p>od 583.985,00 HRK</p>
+                            <img class="kek"  src="images/karavani/karavan4.webp" alt="">
+                        
+                        </div>             
+                      </div>
+        
+                      
+                      
+                    </div>
+                    <!-- Add Pagination -->
+                    <div class="swiper-pagination"></div>
+                  </div>
+
+
+                  </div>
+        
+
+         <div id="suvo" class="SUVOVI">
+            <h2>SUV-ovi</h2>
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    
+                  <div class="swiper-slide">
+                    <div class="mecke">
+                        <h3>G-klasa Terenskko vozilo</h3>
+                        <p>od 1.058.425,00 HRK</p>
+                        <img class="kek" src="images/suvovi/suv1_1.webp" alt="">
+                                         
+                    </div>              
+                  </div>
+                  
+                  <div class="swiper-slide">
+                    <div class="mecke">
+                        <h3>G-klasa Terenskko vozilo</h3>
+                        <p>od 1.058.425,00 HRK</p>
+                        <img class="kek"  src="images/suvovi/suv1_2.webp" alt="">
+                        
+                    </div>             
+                  </div>
+    
+                  <div class="swiper-slide">
+                    <div class="mecke">
+                        <h3>G-klasa Terenskko vozilo</h3>
+                        <p>od 1.058.425,00 HRK</p>
+                        <img class="kek"  src="images/suvovi/suv1.webp" alt="">
+                    
+                    </div>             
+                  </div>
+    
+                  
+                  
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+              </div>
+              
+              
+              <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    
+                  <div class="swiper-slide">
+                    <div class="mecke">
+                        <h3>GLA SUV</h3>
+                        <p>od 243.540,00 HRK</p>
+                        <img class="kek" src="images/suvovi/suv2_1.webp" alt="">
+                                         
+                    </div>              
+                  </div>
+                  
+                  <div class="swiper-slide">
+                    <div class="mecke">
+                        <h3>GLA SUV</h3>
+                        <p>od 243.540,00 HRK</p>
+                        <img class="kek"  src="images/suvovi/suv2_2.webp" alt="">
+                        
+                    </div>             
+                  </div>
+    
+                  <div class="swiper-slide">
+                    <div class="mecke">
+                        <<h3>GLA SUV</h3>
+                        <p>od 243.540,00 HRK</p>
+                        <img class="kek"  src="images/suvovi/suv2.webp" alt="">
+                    
+                    </div>             
+                  </div>
+    
+                  
+                  
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+              </div>  
+
+
+              <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    
+                  <div class="swiper-slide">
+                    <div class="mecke">
+                        <h3>GLB SUV</h3>
+                        <p>od 274.010,00 HRK</p>
+                        <img class="kek" src="images/suvovi/suv3_1.webp" alt="">
+                                         
+                    </div>              
+                  </div>
+                  
+                  <div class="swiper-slide">
+                    <div class="mecke">
+                        <h3>GLB SUV</h3>
+                        <p>od 274.010,00 HRK</p>
+                        <img class="kek"  src="images/suvovi/suv3_2.webp" alt="">
+                        
+                    </div>             
+                  </div>
+    
+                  <div class="swiper-slide">
+                    <div class="mecke">
+                        <h3>GLB SUV</h3>
+                        <p>od 274.010,00 HRK</p>
+                        <img class="kek"  src="images/suvovi/suv3.webp" alt="">
+                    
+                    </div>             
+                  </div>
+    
+                  
+                  
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+              </div>  
+
+
+              <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    
+                  <div class="swiper-slide">
+                    <div class="mecke">
+                        <h3>GLC SUV</h3>
+                        <p>od 402.516,00 HRK</p>
+                        <img class="kek" src="images/suvovi/suv4_1.webp" alt="">
+                                         
+                    </div>              
+                  </div>
+                  
+                  <div class="swiper-slide">
+                    <div class="mecke">
+                        <h3>GLC SUV</h3>
+                        <p>od 402.516,00 HRK</p>
+                        <img class="kek"  src="images/suvovi/suv4_2.webp" alt="">
+                        
+                    </div>             
+                  </div>
+    
+                  <div class="swiper-slide">
+                    <div class="mecke">
+                        <h3>GLC SUV</h3>
+                        <p>od 402.516,00 HRK</p>
+                        <img class="kek"  src="images/suvovi/suv4.webp" alt="">
+                    
+                    </div>             
+                  </div>
+    
+                  
+                  
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+              </div>  
+
+
+              <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    
+                  <div class="swiper-slide">
+                    <div class="mecke">
+                        <h3>GLE SUV</h3>
+                        <p>od 613.000,00 HRK</p>
+                        <img class="kek" src="images/suvovi/suv5_1.webp" alt="">
+                                         
+                    </div>              
+                  </div>
+                  
+                  <div class="swiper-slide">
+                    <div class="mecke">
+                        <h3>GLE SUV</h3>
+                        <p>od 613.000,00 HRK</p>
+                        <img class="kek"  src="images/suvovi/suv5_2.webp" alt="">
+                        
+                    </div>             
+                  </div>
+    
+                  <div class="swiper-slide">
+                    <div class="mecke">
+                        <h3>GLE SUV</h3>
+                        <p>od 613.000,00 HRK</p>
+                        <img class="kek"  src="images/suvovi/suv5.webp" alt="">
+                    
+                    </div>             
+                  </div>
+    
+                  
+                  
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+              </div>  
+
+
+              <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    
+                  <div class="swiper-slide">
+                    <div class="mecke">
+                        <h3>GLS SUV</h3>
+                        <p>od 884.165,00 HRK</p>
+                        <img class="kek" src="images/suvovi/suv6_1.webp" alt="">
+                                         
+                    </div>              
+                  </div>
+                  
+                  <div class="swiper-slide">
+                    <div class="mecke">
+                        <h3>GLS SUV</h3>
+                        <p>od 884.165,00 HRK</p>
+                        <img class="kek"  src="images/suvovi/suv6_2.webp" alt="">
+                        
+                    </div>             
+                  </div>
+    
+                  <div class="swiper-slide">
+                    <div class="mecke">
+                        <h3>GLS SUV</h3>
+                        <p>od 884.165,00 HRK</p>
+                        <img class="kek"  src="images/suvovi/suv6.webp" alt="">
+                    
+                    </div>             
+                  </div>
+    
+                  
+                  
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+              </div>  
+
+
+              <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    
+                  <div class="swiper-slide">
+                    <div class="mecke">
+                        <h3>Mercedes-Maybach GLS</h3>
+                        <p>od 1.698.850,00 HRK</p>
+                        <img class="kek" src="images/suvovi/suv7_1.webp" alt="">
+                                         
+                    </div>              
+                  </div>
+                  
+                  <div class="swiper-slide">
+                    <div class="mecke">
+                        <h3>Mercedes-Maybach GLS</h3>
+                        <p>od 1.698.850,00 HRK</p>
+                        <img class="kek"  src="images/suvovi/suv7_2.webp" alt="">
+                        
+                    </div>             
+                  </div>
+    
+                  <div class="swiper-slide">
+                    <div class="mecke">
+                        <h3>Mercedes-Maybach GLS</h3>
+                        <p>od 1.698.850,00 HRK</p>
+                        <img class="kek"  src="images/suvovi/suv7.webp" alt="">
+                    
+                    </div>             
+                  </div>
+    
+                  
+                  
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+              </div>  
+
+         </div>
+
+        
+
+         <div id="COUP" class="coupei">
+            <h2>Coupei</h2>
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    
+                  <div class="swiper-slide">
+                    <div class="mecke">
+                        <h3>C-klasa Coupe</h3>
+                        <p>od 306.881,00 HRK</p>
+                        <img class="kek" src="images/coupei/coupei1_1.webp" alt="">
+                                         
+                    </div>              
+                  </div>
+                  
+                  <div class="swiper-slide">
+                    <div class="mecke">
+                        <h3>C-klasa Coupe</h3>
+                        <p>od 306.881,00 HRK</p>
+                        <img class="kek"  src="images/coupei/coupei1_2.webp" alt="">
+                        
+                    </div>             
+                  </div>
+    
+                  <div class="swiper-slide">
+                    <div class="mecke">
+                        <h3>C-klasa Coupe</h3>
+                        <p>od 306.881,00 HRK</p>
+                        <img class="kek"  src="images/coupei/coupei1.webp" alt="">
+                    
+                    </div>             
+                  </div>
+    
+                  
+                  
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+              </div>
+
+              <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    
+                  <div class="swiper-slide">
+                    <div class="mecke">
+                        <h3>E-klasa Coupe</h3>
+                        <p>od 479.560,00 HRK</p>
+                        <img class="kek" src="images/coupei/coupei2_1.webp" alt="">
+                                         
+                    </div>              
+                  </div>
+                  
+                  <div class="swiper-slide">
+                    <div class="mecke">
+                        <h3>E-klasa Coupe</h3>
+                        <p>od 479.560,00 HRK</p>
+                        <img class="kek"  src="images/coupei/coupei2_2.webp" alt="">
+                        
+                    </div>             
+                  </div>
+    
+                  <div class="swiper-slide">
+                    <div class="mecke">
+                        <h3>E-klasa Coupe</h3>
+                        <p>od 479.560,00 HRK</p>
+                        <img class="kek"  src="images/coupei/coupei2.webp" alt="">
+                    
+                    </div>             
+                  </div>
+    
+                  
+                  
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+              </div>
+
+              <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    
+                  <div class="swiper-slide">
+                    <div class="mecke">
+                        <h3>CLA Coupe</h3>
+                        <p>od 229.050,00 HRK</p>
+                        <img class="kek" src="images/coupei/coupei3_1.webp" alt="">
+                                         
+                    </div>              
+                  </div>
+                  
+                  <div class="swiper-slide">
+                    <div class="mecke">
+                        <h3>CLA Coupe</h3>
+                        <p>od 229.050,00 HRK</p>
+                        <img class="kek"  src="images/coupei/coupei3_2.webp" alt="">
+                        
+                    </div>             
+                  </div>
+    
+                  <div class="swiper-slide">
+                    <div class="mecke">
+                        <h3>CLA Coupe</h3>
+                        <p>od 229.050,00 HRK</p>
+                        <img class="kek"  src="images/coupei/coupei3.webp" alt="">
+                    
+                    </div>             
+                  </div>
+    
+                  
+                  
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+              </div>
+
+              <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    
+                  <div class="swiper-slide">
+                    <div class="mecke">
+                        <h3>CLS Coupe</h3>
+                        <p>od 532.205,00 HRK</p>
+                        <img class="kek" src="images/coupei/coupei4_1.webp" alt="">
+                                         
+                    </div>              
+                  </div>
+                  
+                  <div class="swiper-slide">
+                    <div class="mecke">
+                        <h3>CLS Coupe</h3>
+                        <p>od 532.205,00 HRK</p>
+                        <img class="kek"  src="images/coupei/coupei4_2.webp" alt="">
+                        
+                    </div>             
+                  </div>
+    
+                  <div class="swiper-slide">
+                    <div class="mecke">
+                        <h3>CLS Coupe</h3>
+                        <p>od 532.205,00 HRK</p>
+                        <img class="kek"  src="images/coupei/coupei4.webp" alt="">
+                    
+                    </div>             
+                  </div>
+    
+                  
+                  
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+              </div>
+
+              <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    
+                  <div class="swiper-slide">
+                    <div class="mecke">
+                        <h3>Mercedes-AMG GT Coupe</h3>
+                        <p>od 1.342.520,00 HRK</p>
+                        <img class="kek" src="images/coupei/coupei5_1.webp" alt="">
+                                         
+                    </div>              
+                  </div>
+                  
+                  <div class="swiper-slide">
+                    <div class="mecke">
+                        <h3>Mercedes-AMG GT Coupe</h3>
+                        <p>od 1.342.520,00 HRK</p>
+                        <img class="kek"  src="images/coupei/coupei5_2.webp" alt="">
+                        
+                    </div>             
+                  </div>
+    
+                  <div class="swiper-slide">
+                    <div class="mecke">
+                        <h3>Mercedes-AMG GT Coupe</h3>
+                        <p>od 1.342.520,00 HRK</p>
+                        <img class="kek"  src="images/coupei/coupei5.webp" alt="">
+                    
+                    </div>             
+                  </div>
+    
+                  
+                  
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+              </div>
+
+              <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    
+                  <div class="swiper-slide">
+                    <div class="mecke">
+                        <h3>Mercedes-AMG GT Coupe s 4 vrata</h3>
+                        <p>od 675.660,00 HRK</p>
+                        <img class="kek" src="images/coupei/coupei6_1.webp" alt="">
+                                         
+                    </div>              
+                  </div>
+                  
+                  <div class="swiper-slide">
+                    <div class="mecke">
+                        <h3>Mercedes-AMG GT Coupe s 4 vrata</h3>
+                        <p>od 675.660,00 HRK</p>
+                        <img class="kek"  src="images/coupei/coupei6_2.webp" alt="">
+                        
+                    </div>             
+                  </div>
+    
+                  <div class="swiper-slide">
+                    <div class="mecke">
+                        <h3>Mercedes-AMG GT Coupe s 4 vrata</h3>
+                        <p>od 675.660,00 HRK</p>
+                        <img class="kek"  src="images/coupei/coupei6.webp" alt="">
+                    
+                    </div>             
+                  </div>
+    
+                  
+                  
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+              </div>
+
+         </div>
+
+
+         <div id="KABR" class="kabrijeloti">
+            <h2>Cabrioleti & Roadsteri</h2>
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    
+                  <div class="swiper-slide">
+                    <div class="mecke">
+                        <h3>SL Roadster</h3>
+                        <p>od 960.919,00 HRK</p>
+                        <img class="kek" src="images/kabrioleti/kabrioleti1_1.webp" alt="">
+                                         
+                    </div>              
+                  </div>
+                  
+                  <div class="swiper-slide">
+                    <div class="mecke">
+                        <h3>SL Roadster</h3>
+                        <p>od 960.919,00 HRK</p>
+                        <img class="kek"  src="images/kabrioleti/kabrioleti1_2.webp" alt="">
+                        
+                    </div>             
+                  </div>
+    
+                  <div class="swiper-slide">
+                    <div class="mecke">
+                        <h3>SL Roadster</h3>
+                        <p>od 960.919,00 HRK</p>
+                        <img class="kek"  src="images/kabrioleti/kabrioleti1.webp" alt="">
+                    
+                    </div>             
+                  </div>
+    
+                  
+                  
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+              </div>
+
+              <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    
+                  <div class="swiper-slide">
+                    <div class="mecke">
+                        <h3>C-klasa Cabriolet</h3>
+                        <p>od 361.843,00 HRK</p>
+                        <img class="kek" src="images/kabrioleti/kabrioleti2_1.webp" alt="">
+                                         
+                    </div>              
+                  </div>
+                  
+                  <div class="swiper-slide">
+                    <div class="mecke">
+                        <h3>C-klasa Cabriolet</h3>
+                        <p>od 361.843,00 HRK</p>
+                        <img class="kek"  src="images/kabrioleti/kabrioleti2_2.webp" alt="">
+                        
+                    </div>             
+                  </div>
+    
+                  <div class="swiper-slide">
+                    <div class="mecke">
+                        <h3>C-klasa Cabriolet</h3>
+                        <p>od 361.843,00 HRK</p>
+                        <img class="kek"  src="images/kabrioleti/kabrioleti2.webp" alt="">
+                    
+                    </div>             
+                  </div>
+    
+                  
+                  
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+              </div>
+
+              <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    
+                  <div class="swiper-slide">
+                    <div class="mecke">
+                        <h3>E-klasa Cabriolet</h3>
+                        <p>od 513.210,00 HRK</p>
+                        <img class="kek" src="images/kabrioleti/kabrioleti3_1.webp" alt="">
+                                         
+                    </div>              
+                  </div>
+                  
+                  <div class="swiper-slide">
+                    <div class="mecke">
+                        <h3>E-klasa Cabriolet</h3>
+                        <p>od 513.210,00 HRK</p>
+                        <img class="kek"  src="images/kabrioleti/kabrioleti3_2.webp" alt="">
+                        
+                    </div>             
+                  </div>
+    
+                  <div class="swiper-slide">
+                    <div class="mecke">
+                        <h3>E-klasa Cabriolet</h3>
+                        <p>od 513.210,00 HRK</p>
+                        <img class="kek"  src="images/kabrioleti/kabrioleti3.webp" alt="">
+                    
+                    </div>             
+                  </div>
+    
+                  
+                  
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+              </div>
+
+              <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    
+                  <div class="swiper-slide">
+                    <div class="mecke">
+                        <h3>Mercedesa-AMG GT Roadster</h3>
+                        <p>od 1.457.050,00 HRK</p>
+                        <img class="kek" src="images/kabrioleti/kabrioleti4_1.webp" alt="">
+                                         
+                    </div>              
+                  </div>
+                  
+                  <div class="swiper-slide">
+                    <div class="mecke">
+                        <h3>Mercedesa-AMG GT Roadster</h3>
+                        <p>od 1.457.050,00 HRK</p>
+                        <img class="kek"  src="images/kabrioleti/kabrioleti4_2.webp" alt="">
+                        
+                    </div>             
+                  </div>
+    
+                  <div class="swiper-slide">
+                    <div class="mecke">
+                        <h3>Mercedesa-AMG GT Roadster</h3>
+                        <p>od 1.457.050,00 HRK</p>
+                        <img class="kek"  src="images/kabrioleti/kabrioleti4.webp" alt="">
+                    
+                    </div>             
+                  </div>
+    
+                  
+                  
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+              </div>
+
+         </div>
+
+        <div class="napomeneifusnote">
+            <h2>Napomene i fusnote</h2>
+            <img onclick="Napomene()" id="napomenestrelica" class="strelicanapomene" src="images/strelica.svg" alt="">  
+            <p id="pnapomene">Cijene su u kunama i sadrže PDV i PPMV
+                Prikazane slike su ilustrativne prirode i mogu sadržavati opremu koja nije na popisu opreme odabranog modela. Moguće su promjene i pogreške u prikazu cijena, tehničkim podacima i slikama.</p>
+              
+        </div>
+
+
+        <div class="kontakt">
+            <h4>Ostanite sa nama u kontaktu</h4>
+            <p>Aktualne informacije prilagodjene Vasim interesima</p>
+            <input type="email">
+            <img class="emailstrelica" src="images/arrowdown.png" alt="">
+            <hr class="linija">
+            <hr class="linijaa">
+            
+        </div>
+
+        
+
+        <div class="drustvene">
+            <li><a href="#"><img src="images/fb.svg" alt=""></a></li>
+            <li><a href="#"><img src="images/instagram.svg" alt=""></a></li>
+            <li><a href="#"><img src="images/yt.svg" alt=""></a></li>
+
+
+        </div>
+
+        <div class="mobilniheader">
+            <p>2020. Star Import d.o.o. Sva prava pridrzana (impresum)</p>
+            <ul class="headerfon">
+                
+                <li><a href="#">Postavke</a></li>
+                
+                <li><a href="#">Zastita podataka</a></li>
+                
+                <li><a href="#">Pravne napomene</a></li>
+
+            </ul>
+        </div>
+
+        
+        
+    </div>
+  </div>
+  </div>
+
+  <div class="pc">
+      <!--HEADER-->
+      <div class="pcheader">
+          <div class="pcheaderlogoitekst">
+            <div class="pcheaderslika">
+                <img src="images/pc/meckalogo.svg" alt="">
+            </div>
+            <div class="pcheadertekst">
+              <p>Mercedes-Benz</p>
+              <p>The best or nothing.</p>
+            </div>            
+          </div>         
+      </div>
+      <div class="pcheaderlinija"></div>
+      <div class="pcnavigacijskatraka">
+        <div onclick="pcTabNoviModeli()" class="nasimodeliikona">
+          <img src="images/pc/auto.jpg" alt="">
+          <a href="#">Nasi modeli</a>
+        </div>     
+        <a onclick="pcTabPronadji()" href="#">Pronadjite i kupite</a>
+        <a onclick="pcTabTehnologija()" href="#">Tehnologija i Inovacije</a>
+        <a onclick="pcTabFinanciranje()" href="#">Financiranje</a>
+        <a onclick="pcTabServis()" href="#">Servis i Oprema</a>
+        <a href="mercedesme.html">Mercedes me prijava</a>
+      </div>
+
+      <!---SLAJDER-->
+
+      
+        <div class="slides">
+          <div class="slide">
+            <img src="images/pc/index/slika1.jpg" alt="">
+          </div>
+          <div class="slide">
+            <img src="images/pc/index/slika2.jpg" alt="">
+          </div>
+          <div class="slide">
+            <img src="images/pc/index/slika3.jpg" alt="">
+          </div>
+          <div class="slide">
+            <img src="images/pc/index/slika4.jpg" alt="">
+          </div>
+        </div>
+    
+        <div class="dugmici">
+          <div onclick="dugme1()" id="dugme1" class="dugme"></div>
+          <div onclick="dugme2()" id="dugme2" class="dugme"></div>
+          <div onclick="dugme3()" id="dugme3" class="dugme"></div>
+          <div onclick="dugme4()" id="dugme4" class="dugme"></div>
+        </div>
+        
+        <div class="dropdownslider">
+          <p class="dropdownslidertekst">ALL Star 2021.</p>
+          <p class="dropdownslidertekst">> Posebna ponuda vozila dostupnih odmah. Postanite clan najboljeg tima.</p>
+        </div>
+
+        <p class="pcNasaVozilaNaslov">Nasa Vozila.</p>
+     
+        <div class="pclistamodela">
+          <div class="model1">
+            <p>Svi modeli</p>
+          </div>
+
+          <div class="model2">
+            <div class="model2slika">
+              <img src="images/pc/index/modelilogo/slika1.svg" alt="">
+            </div>
+            <div class="model2tekst">
+              <p>Electric Intelligence</p>
+            </div>
+            
+          </div>
+
+          <div class="model3">
+            <img src="images/pc/index/modelilogo/slika2.png" alt="">
+          </div>
+          
+          <div class="model4">
+            <p>Maybach</p>
+          </div>
+
+          <div class="model5">
+            <p>Novi Modeli</p>
+          </div>
+
+        </div>
+
+        <div class="tipvozila">
+          <img src="images/pc/auto1.jpg" alt="">
+          <p>Tip vozila</p>
+        </div>
+
+        <div class="pcvertikalnalistamodela">
+          <div  onclick="pcKompakti()" class="model1">
+            <img id="model1" src="images/pc/auto2.jpg" alt="">
+            <p>Kompakti</p>
+          </div>
+
+          <div onclick="pcLimuzine()" class="model2">
+            <img id="model2" src="images/pc/auto3.jpg" alt="">
+            <p>Limuzine</p>
+          </div>
+
+          <div onclick="pcKaravani()" class="model3">
+            <img id="model3" src="images/pc/auto4.jpg" alt="">
+            <p>Karavani</p>
+          </div>
+
+          <div onclick="pcSUVovi()" class="model4">
+            <img id="model4" src="images/pc/auto5.jpg" alt="">
+            <p>SUV-ovi</p>
+          </div>
+
+          <div onclick="pcCoupei()" class="model5">
+            <img id="model5" src="images/pc/auto6.jpg" alt="">
+            <p>Coupei</p>
+          </div>
+
+          <div onclick="pcCabrieloti()" class="model6">
+            <img id="model6" src="images/pc/auto7.jpg" alt="">
+            <p>Cabrieloti & Roadsteri</p>
+          </div>
+        </div>
+
+        <div class="pcmodelisvi">
+          <div class="pcmodeli">
+            <div onmouseover="stvoriPopup1()" onmouseout="izbrisiPopup1()" id="pcmodeli1" class="pcmodeli1">
+              <h2 id="pcImeModela1">A-klasa kompaktna limuzina</h2>
+              <p id="pcCijenaModela1"> od 187.935,00 HRK</p>
+              <img id="kompaktna1" src="images/kompaktne/kompaktna1.webp" alt="">
+              <div class="pcmodelitockice">
+                <li id="kompaktnatockica1" onclick="kompaktnatockica1()"></li>
+                <li id="kompaktnatockica2" onclick="kompaktnatockica2()"></li>
+                <li id="kompaktnatockica3" onclick="kompaktnatockica3()"></li>
+              </div>
+              <div class="pcmodelipopup">
+                <div class="pcmodelipopup1">
+                  <img src="images/pc/saznajvise.jpg" alt="">
+                  <p>Saznajte vise</p>
+                </div>
+                <div class="pcmodelipopup2">
+                  <img src="images/pc/probnavoznja.jpg" alt="">
+                  <p>Probna Voznja</p>
+                </div>
+              </div>
+            </div>
+  
+            <div onmouseover="stvoriPopup2()" onmouseout="izbrisiPopup2()"id="pcmodeli2" class="pcmodeli2">
+              <h2 id="pcImeModela2">B-klasa Sports Tourer</h2>
+              <p id="pcCijenaModela2">od 211.036,00 HRK</p>
+              <img id="kompaktna2"  src="images/kompaktne/kompaktna2.webp" alt="">
+              <div class="pcmodelitockice">
+                <li id="kompaktnatockica4" onclick="kompaktnatockica4()"></li>
+                <li id="kompaktnatockica5" onclick="kompaktnatockica5()"></li>
+                <li id="kompaktnatockica6" onclick="kompaktnatockica6()"></li>
+              </div>
+              <div class="pcmodelipopup">
+                <div class="pcmodelipopup1">
+                  <img src="images/pc/saznajvise.jpg" alt="">
+                  <p>Saznajte vise</p>
+                </div>
+                <div class="pcmodelipopup2">
+                  <img src="images/pc/probnavoznja.jpg" alt="">
+                  <p>Probna Voznja</p>
+                </div>
+              </div>
+            </div>
+
+            <div onmouseover="stvoriPopup3()" onmouseout="izbrisiPopup3()" id="pcmodeli3" class="pcmodeli3">
+              <h2 id="pcImeModela3">B-klasa Sports Tourer</h2>
+              <p id="pcCijenaModela3">od 211.036,00 HRK</p>
+              <img id="kompaktna3" src="images/kompaktne/kompaktna2.webp" alt="">
+              <div class="pcmodelitockice">
+                <li id="kompaktnatockica7" onclick="kompaktnatockica7()"></li>
+                <li id="kompaktnatockica8" onclick="kompaktnatockica8()"></li>
+                <li id="kompaktnatockica9" onclick="kompaktnatockica9()"></li>
+              </div>
+              <div class="pcmodelipopup">
+                <div class="pcmodelipopup1">
+                  <img src="images/pc/saznajvise.jpg" alt="">
+                  <p>Saznajte vise</p>
+                </div>
+                <div class="pcmodelipopup2">
+                  <img src="images/pc/probnavoznja.jpg" alt="">
+                  <p>Probna Voznja</p>
+                </div>
+              </div>
+            </div>
+
+            <div onmouseover="stvoriPopup4()" onmouseout="izbrisiPopup4()" id="pcmodeli4" class="pcmodeli4">
+              <h2 id="pcImeModela4">B-klasa Sports Tourer</h2>
+              <p id="pcCijenaModela4">od 211.036,00 HRK</p>
+              <img id="kompaktna4"  src="images/kompaktne/kompaktna2.webp" alt="">
+              <div class="pcmodelitockice">
+                <li id="kompaktnatockica10" onclick="kompaktnatockica10()"></li>
+                <li id="kompaktnatockica11" onclick="kompaktnatockica11()"></li>
+                <li id="kompaktnatockica12" onclick="kompaktnatockica12()"></li>
+              </div>
+              <div class="pcmodelipopup">
+                <div class="pcmodelipopup1">
+                  <img src="images/pc/saznajvise.jpg" alt="">
+                  <p>Saznajte vise</p>
+                </div>
+                <div class="pcmodelipopup2">
+                  <img src="images/pc/probnavoznja.jpg" alt="">
+                  <p>Probna Voznja</p>
+                </div>
+              </div>
+            </div>
+
+            <div onmouseover="stvoriPopup5()" onmouseout="izbrisiPopup5()" id="pcmodeli5" class="pcmodeli5">
+              <h2 id="pcImeModela5">B-klasa Sports Tourer</h2>
+              <p id="pcCijenaModela5">od 211.036,00 HRK</p>
+              <img id="kompaktna5"  src="images/kompaktne/kompaktna2.webp" alt="">
+              <div class="pcmodelitockice">
+                <li id="kompaktnatockica13" onclick="kompaktnatockica13()"></li>
+                <li id="kompaktnatockica14" onclick="kompaktnatockica14()"></li>
+                <li id="kompaktnatockica15" onclick="kompaktnatockica15()"></li>
+              </div>
+              <div class="pcmodelipopup">
+                <div class="pcmodelipopup1">
+                  <img src="images/pc/saznajvise.jpg" alt="">
+                  <p>Saznajte vise</p>
+                </div>
+                <div class="pcmodelipopup2">
+                  <img src="images/pc/probnavoznja.jpg" alt="">
+                  <p>Probna Voznja</p>
+                </div>
+              </div>
+            </div>
+
+            <div onmouseover="stvoriPopup6()" onmouseout="izbrisiPopup6()"id="pcmodeli6" class="pcmodeli6">
+              <h2 id="pcImeModela6">B-klasa Sports Tourer</h2>
+              <p id="pcCijenaModela6">od 211.036,00 HRK</p>
+              <img id="kompaktna6"  src="images/kompaktne/kompaktna2.webp" alt="">
+              <div class="pcmodelitockice">
+                <li id="kompaktnatockica16" onclick="kompaktnatockica16()"></li>
+                <li id="kompaktnatockica17" onclick="kompaktnatockica17()"></li>
+                <li id="kompaktnatockica18" onclick="kompaktnatockica18()"></li>
+              </div>
+              <div class="pcmodelipopup">
+                <div class="pcmodelipopup1">
+                  <img src="images/pc/saznajvise.jpg" alt="">
+                  <p>Saznajte vise</p>
+                </div>
+                <div class="pcmodelipopup2">
+                  <img src="images/pc/probnavoznja.jpg" alt="">
+                  <p>Probna Voznja</p>
+                </div>
+              </div>
+            </div>
+
+           
+          </div>
+
+        </div>
+        
+        <div class="pcnapomeneifusnote">
+          <div class="pcnapomene">
+            <p>Napomene i fusnote</p>
+            <img id="pccrticanapomene" onclick="napomeneRemove()" src="images/pc/napomene.jpg" alt="">
+          </div>
+  
+          <div class="pcnapomenetext">
+            <div  class="pcnapomenecrtica"></div>
+            <p id="pcnapomenep">Cijene su u kunama i sadrže PDV i PPMV<br><br>
+              Prikazane slike su ilustrativne prirode i mogu sadržavati opremu koja nije na popisu opreme odabranog modela. Moguće su promjene i pogreške u prikazu cijena, tehničkim podacima i slikama.</p>
+          </div>
+        </div>
+        
+
+        <div class="pcCrnaLista">
+          <div class="pcCrnaLista1">
+            <p>Pretraga prodavatelja</p>
+          </div>
+          <div class="pcCrnaLista1">
+            <p>Probna Voznja</p>
+          </div>
+          <div class="pcCrnaLista1">
+            <p>Mobility Solutions</p>
+          </div>
+          <div class="pcCrnaLista1">
+            <p>Newsteller</p>
+          </div>
+          <div class="pcCrnaLista1">
+            <p>Kontaktirajte nas</p>
+          </div>
+
+        
+        </div>
+
+        <div class="footer">
+        
+          <div class="footerkontakt">
+              <div class="footerkontakt1dio">
+                  <p id="footerkontakt">Ostanite s nama u kontaktu</p>
+                  <p>Aktualne informacije prilagodjene Vasim interesima.</p>
+                  <div class="blok1">
+                      <input type="text" placeholder="Vasa E-mail Adresa">
+                      <div class="footerdugme">
+                          <p>Pretplatite se</p>
+                      </div>
+                  </div>
+                  
+              </div>
+              <div class="footerkontakt2dio">
+                  <div class="drustvene">
+                      <p>Mercedes benz na drustvenim mrezama:</p>
+                  </div>
+                  <div class="drustveneslike">
+                      <img src="images/fb.svg" alt="">
+                      <img src="images/yt.svg" alt="">
+                      <img src="images/instagram.svg" alt="">
+                  </div>
+              </div>
+          </div>
+  
+          <div class="footercrnidio">
+              <ul>
+                  <li>2020.Star Import d.o.o. Sva prava pridrzana</li>
+                  <div class="footervertikalnacrta"></div>
+                  <li>Postavke</li>
+                  <div class="footervertikalnacrta"></div>
+                  <li>Zastita podataka</li>
+                  <div class="footervertikalnacrta"></div>
+                  <li>Pravne napomene</li>
+              </ul>
+          </div>
+  
+  
+          
+      </div>
+
+      <div id="pcnoviModeliPopup" class="noviModeliPopup">
+        <h2 id="pcnoviModeliPopupNaslov">Nasi modeli</h2>
+        <img onclick="pcBrisiTab()" id="x" src="images/x.png" alt="">
+        <div class="listaKlasa">
+          <div onclick="pcKompaktiplavo()" class="modeli1">
+            <p id="pcKompakt1"> Kompakti</p>
+            <img id="pcKompaktStrelica" class="streliceDesno"  src="images/strelicacrna.png" alt="">
+          </div>
+          <div onclick="pcLimuzineplavo()"class="modeli1">
+            <p id="pcLimuzina1">Limuzine</p>
+            <img id="pcLimuzinaStrelica" class="streliceDesno"  src="images/strelicacrna.png" alt="">
+          </div>
+          <div onclick="pcKaravaniplavo()" class="modeli1">
+            <p id="pcKaravan1">Karavani</p>
+            <img id="pcKaravanStrelica" class="streliceDesno"   src="images/strelicacrna.png" alt="">
+          </div>
+          <div onclick="pcSUVoviplavo()" class="modeli1">
+            <p id="pcSuv1">SUV-ovi</p>
+            <img id="pcSUVStrelica" class="streliceDesno"   src="images/strelicacrna.png" alt="">
+          </div>
+          <div onclick="pcCoupeiplavo()" class="modeli1">
+            <p id="pcCoupei1">Coupei</p>
+            <img id="pcCoupeiStrelica" class="streliceDesno"  src="images/strelicacrna.png" alt="">
+          </div>
+          <div onclick="pcCabrielotiplavo()" class="modeli1">
+            <p id="pcCabrielot1">Cabrieloti</p>
+            <img id="pcCabrielotStrelica" class="streliceDesno"  src="images/strelicacrna.png" alt="">
+          </div>
+
+          
+
+        </div>
+      </div>
+        
+      <div id="pcnoviModeli1" class="pcnoviModeli1">
+        <img onclick="pcNazad()" id="strelicaNazad" src="images/strelicacrna.png" alt="">
+        <h2 id="nezvisekojeimedadam">Kompakti</h2>
+        <div class="listaKlasa">
+          <div class="pcMenuTabModeli1">
+            <p onclick="provjeraHTML()" class="pcMenuTabModeli1opis" >A-klasa kompaktna limuzina</p>
+            
+          </div>
+          <div class="pcMenuTabModeli">
+            <p onclick="provjeraHTML1()" class="pcMenuTabModeli1opis"  >B-klasa Sports Tourer</p>
+            
+          </div>
+          <div class="pcMenuTabModeli">
+            <p class="pcMenuTabModeli1opis" >Karavani</p>
+            
+          </div>
+          <div class="pcMenuTabModeli">
+            <p class="pcMenuTabModeli1opis"  >SUV-ovi</p>
+            
+          </div>
+          <div class="pcMenuTabModeli">
+            <p class="pcMenuTabModeli1opis" >Coupei</p>
+            
+          </div>
+          <div class="pcMenuTabModeli">
+            <p class="pcMenuTabModeli1opis" >Cabrieloti</p>
+            
+          </div>
+
+        </div>
+      </div>
+      
+      <div class="plaviNavBar">
+        <div onmouseover="pcPlavi()" onmouseout="pcPlaviB()" class="plaviNav1">
+          <img src="images/pretraga.svg" alt="">
+          <p>Pretraga Prodavatelja</p>
+        </div>
+        <div onmouseover="pcPlavi1()" onmouseout="pcPlavi1B()" class="plaviNav2">
+          <img src="images/probnavoznja.svg" alt="">
+          <p>Probna Voznja</p>
+
+        </div>
+        <div onmouseover="pcPlavi2()" onmouseout="pcPlavi2B()"  class="plaviNav3">
+          <img src="images/kontakt.svg" alt="">
+          <p>Kontakt</p>
+        </div>
+      </div>
+
+  </div>
+    
+    <script src="index.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+</body>
+</html>

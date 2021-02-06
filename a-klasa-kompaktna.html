@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A-klasa Kompaktna</title>
+    <link rel="stylesheet" href="a-klasa-kompaktna.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <script src="ostalimodeli.js"></script>
+    
+</head>
+<body>
+ <div class="malimobitel">
+    <div id="popup" class="popup">
+        <ul>
+            <li onclick="izbrisiPopup()">
+                <a id="autiImeStranice" class="autiImeStranice" href="#"> A-klasa Kompaktna limuzina</a>
+            </li>
+            <li  onclick="dizajn()">
+                <a href="#znacajke">Dizajn</a>
+            </li>
+            <li onclick="komfor()">
+                <p>Komfor</p>
+            </li>
+            <li onclick="sigurnost()">
+                <p>Sigurnost</p>
+            </li>
+            <li onclick="specifikacije()">
+                <p>Specifikacije</p>
+            </li>
+            <li onclick="cijenik()">
+                <p>Cijenik</p>
+            </li>
+            <li onclick="mercedesAMG()">
+                <p>Mercedes-AMG</p>
+            </li>
+        </ul>
+        
+
+    </div>
+
+
+    <div class="kontenjer">
+        <div class="header">
+            <ul class="navigacija">
+                <li><img src="images/carlogo.png" onclick="livimenufunkcija()" class="carlogo" alt="carlogo"></li>
+                <li onclick="window.location.href='index.html';"><img src="images/mercedeslogo.png" class="mercedeslogo" alt="mercedeslogo"></li>
+                <li><img src="images/menu.png" onclick="desnaAnimacija()" class="menuscroll" alt="menu"></li>
+            </ul>
+        </div>
+
+        <div onclick="stvoriPopup()" class="siviskrolbar">
+            <p id="autiImeStranice2">A-klasa kompaktna limuzina</p>
+            <img id="strelicadole" src="images/arrowdown.png" alt="">
+        </div>
+
+        <div class="slikaaklase">
+            <img class="slikaklase" id="slikaklase" src="images/kompaktneAklasa/aklasa.webp" alt="">
+        </div>
+
+
+        <div class="crnikontenjer">
+            <h2 class="vrstaklase" id="vrstaklase">A-Klasa.</h2>
+            <p id="opis1" class="opis1">Posebna poput vas.</p>
+            <p id="znacajke" >Najvaznije znacajke vozila</p>
+            <hr id="vertikalnalinija"></hr>
+
+            <h2 id="posebna" class="posebna">Sto A-klasu cini tako posebnom?</h2>
+            <p class="posebnap" id="posebnap">Jednostavno je pitajte sami. Ona govori, razumije, razmislja i osjeca se ocaravajuce ljudskom</p>
+
+
+
+
+            <div class="slajder">
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        
+                      <div class="swiper-slide">
+                        <div class="mecke">
+                            
+                            <img id="swiper1slika1" class="kek" src="images/2KompaktniAklasa/slika1.jpeg" alt="">
+                                             
+                        </div>              
+                      </div>
+                      
+                      <div class="swiper-slide">
+                        <div class="mecke">
+                            
+                            <img id="swiper1slika2" class="kek"  src="images/2KompaktniAklasa/slika2.jpeg" alt="">
+                            
+                        </div>             
+                      </div>
+        
+                      <div class="swiper-slide">
+                        <div class="mecke">
+                            
+                            <img id="swiper1slika3" class="kek"  src="images/2KompaktniAklasa/slika3.webp" alt="">
+                        
+                        </div>             
+                      </div>
+        
+                      
+                      
+                    </div>
+                    <!-- Add Pagination -->
+                    <div class="swiper-pagination"></div>
+                  </div>
+            </div>
+
+            
+            <p id="znacajke">Dizajn</p>
+            <hr id="vertikalnalinija"></hr>
+            <h2 class="posebna2" id="posebna2">Novi dizajn? Nova era.</h2>
+            <p class=" posebnap2" id="posebnap2">Sve linije A-klase slijede samo jedan smjer: jasnocu percepcije nase filozofije dizajna</p>
+
+
+            <div class="slajder2">
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        
+                      <div class="swiper-slide">
+                        <div class="mecke">
+                            
+                            <img class="eksterijerslika" id="swiper2slika1" class="kek" src="images/2KompaktniAklasa/slika4.jpeg" alt="">
+                            <p>Na dizajn eksterijera</p>
+                                             
+                        </div>              
+                      </div>
+                      
+                      <div class="swiper-slide">
+                        <div class="mecke">
+                            
+                            <img class="interijerslika" id="swiper2slika2" class="kek"  src="images/2KompaktniAklasa/slika5.jpeg" alt="">
+                            <p>Na dizajn interijera</p>
+                            
+                        </div>             
+                      </div>
+        
+                    </div>
+                    <!-- Add Pagination -->
+                    <div class="swiper-pagination"></div>
+                  </div>
+
+
+
+            </div>
+
+
+            <p id="znacajke">Komfor</p>
+            <hr id="vertikalnalinija"></hr>
+            <h2 class="posebna3" id="posebna3">Mozemo li razgovarati?</h2>
+            <p class="posebnap3" id="posebnap3">O potpuno novom nacinu upravljanja automobilom. O intuiciji i umijecu svakodnevnog ucenja. O komforu A-klase.</p>
+            <h2 class="posebnaa" id="posebnaa"> Odabrana istaknuta obiljezja:</h2>
+
+            <div class="slika6">
+                <img class="slikakomfora" id="slika2" src="images/2KompaktniAklasa/slika6.jpeg" alt="">
+            </div>
+
+            <ul class="listatockice">
+                <li id="1listaTockice1" class="1listaTockice1">MBUX(Mercedes-Benz User Expirience)</li>
+                <li id="1listaTockice2" class="1listaTockice2"> Sustav glasovnog upravljanja LINGUATRONIC</li>
+                <li id="1listaTockice3" class="1listaTockice3">Head-up Zaslon</li>
+            </ul>  
+
+            <div class="dugme">
+                <p>Vise o komforu</p>
+            </div>
+
+
+            <p class="znacajke4"id="znacajke">Sigurnost</p>
+            <hr id="vertikalnalinija"></hr>
+            <h2 id="posebna4" class="posebna4">Pricajmo o povjerenju.</h2>
+            <p id="posebnap4" class="posebnap4">Moderni sigurnosti sustavi A-klasu pretvaraju u Vaseg budnog pratioca. U slucaju opasnosti mogu automatski reagirati i osjetno rasteriti vozaca.</p>
+            <h2 id="posebnaa2" class="posebnaa2"> Odabrana istaknuta obiljezja:</h2>
+
+            <div class="slika6">
+                <img class="sigurnostslika1" id="slika3" src="images/2KompaktniAklasa/slika7.webp" alt="">
+            </div>
+
+            <ul class="listatockice">
+                <li class="2listaTockice1" id="2listaTockice1">Paket pomoci u voznji</li>
+                <li id="2listaTockice2" class="2listaTockice2">PRE-SAFE Sound</li>
+                <li id="2listaTockice3" class="2listaTockice3">Car-to-X-Communication</li>
+                <li id="2listaTockice4" class="2listaTockice4">Svjetla MULTIBEAM LED</li>
+            </ul>  
+
+            <div class="dugme">
+                <p>Vise o sigurnosti</p>
+            </div>
+
+
+            <p id="znacajke">Specifikacije</p>
+            <hr id="vertikalnalinija"></hr>
+            <h2 id="posebna5" class="posebna5">Jasno izrazeno.</h2>
+            <p id="posebnap5" class="posebnap5"> Visoko razvijena tehnologija novih motora ocituje se u vecoj snazi i boljoj ucinkovitosti koje se temelje na kombinaciji najmodernijih tehnoloskih modula i brojnih detalja pojedinacnih mjera. To je osobito vidljivo na modelu A 250 e:prvom plug-in hibridu A-klase Limuzine.</p>
+            
+            <div class="slika7">
+                <img class="specifikacijeslika1 "id="slika4"src="images/2KompaktniAklasa/slika8.jpeg" alt="">
+            </div>
+            <div id="listeSve" class="liste">
+                <p id="lista1-1">Snazni</p>
+            <p id=lista1-2>motori</p>
+            <hr id="vertikalnalinija2"></hr>
+            <p id="lista1-3">Prostrana</p>
+            <p id="lista1-4">unutrasnjost</p>
+            <hr id="vertikalnalinija2"></hr>
+            <p id="lista1-5">Domet na elektricni pogon</p>
+            <p id="lista1-6">do 75 kilometara</p>
+            <div class="dugme">
+                <p>Vise o specifikacijama</p>
+            </div>
+
+            <p id="posebnap"> Potrosnja strujje modela A 250 e u kombiniranom ispitnom ciklusu: 15,0-14.8kWh/100 km; potrosnja goriva, prosjek: 1,5-1,4l/100 km; emisije CO2, prosjek: 34-33g/km</p>
+
+            <p id="sivitekst">[1]
+                Podaci o nazivnoj snazi i nazivnom okretnom momentu sukladno Uredbi (EZ) br. 715/2007 u trenutačno vrijedećoj verziji.<br><br>
+                
+                [2]
+                Navedene vrijednosti izračunate su pomoću propisanog mjernog postupka. To su „izmjerene vrijednosti CO2 koje su dobivene ispitivanjem vozila u skladu s NEDC-om” u smislu čl. 2. br. 1 Provedbene uredbe Komisije (EU) 2017/1153. Podaci o potrošnji goriva izračunati su na temelju tih vrijednosti. Potrošnja struje izračunata je na temelju Uredbe 692/2008/EZ.</p>
+
+            </div>
+            
+
+        <div class="amgID" id="amgID">
+                <p id="znacajke">Mercedes-AMG</p>
+                <hr id="vertikalnalinija"></hr>
+                <h2 id="posebna">Mercedes-AMG A-klasa</h2>
+                
+                
+                <div class="slika7">
+                    <img id="slikaamg" src="images/2KompaktniAklasa/slika9.jpeg" alt="">
+                </div>
+                <hr id="vertikalnalinija2"></hr>
+                <p id="lista2-1">Okretni moment</p>
+                <p id=lista2-2>400Nm do 500Nm</p>
+                <hr id="vertikalnalinija2"></hr>
+                <p id="lista2-3">Ubrzanje</p>
+                <p id="lista2-4">4,7 s do 3.9s</p>
+                <p id="lista2-5">od 0 do 100km/h</p>
+                <hr id="vertikalnalinija2"></hr>
+                <p id="lista2-5">Snaga</p>
+                <p id="lista2-6">225kW do 310kW</p>
+                <div class="dugme">
+                    <p>Vise o Mercedes-AMG</p>
+                </div>
+
+                <p id="posebnap"> Za A-klasu su dostupni modeli Mercedes-AMG A 35 4MATIC, Mercedes-AMG A 45 4MATIC+ i Mercedes-AMG A 45 S 4MATIC+.
+
+                    Mercedes-AMG A 35 4MATIC potrošnja goriva, prosjek: 7,3 l/100 km, emisije CO2, prosjek: 169-167 g/km;
+                    Mercedes-AMG A 45 4MATIC+ potrošnja goriva, prosjek: 8,3 l/100 km, emisije CO2, prosjek: 192-189 g/km;
+                    Mercedes-AMG A 45 S 4MATIC+ potrošnja goriva, prosjek: 8,3 l/100 km, emisije CO2, prosjek: 192-189 g/km</p>
+
+                <p id="sivitekst">[1]
+                Podaci o nazivnoj snazi i nazivnom okretnom momentu sukladno Uredbi (EZ) br. 715/2007 u trenutačno vrijedećoj verziji.<br>
+                
+                [2]
+                Navedene vrijednosti izračunate su pomoću propisanog mjernog postupka. To su „izmjerene vrijednosti CO2 koje su dobivene ispitivanjem vozila u skladu s NEDC-om” u smislu čl. 2. br. 1 Provedbene uredbe Komisije (EU) 2017/1153. Podaci o potrošnji goriva izračunati su na temelju tih vrijednosti. Potrošnja struje izračunata je na temelju Uredbe 692/2008/EZ.</p>
+
+        </div>
+                
+
+                
+            
+
+            <ul class="listalinkovi">
+                <li>
+                    <a href="#">Pretraga prodavatelja</a>
+                    <img  src="images/arrowdown.png" alt="">
+                </li>
+                <hr id="vertikalnalinija3"></hr>
+                <li>
+                    <a href="#">Mobility Solutions</a>
+                    <img  src="images/arrowdown.png" alt="">
+                </li>
+                <hr id="vertikalnalinija3"></hr>
+                <li>
+                    <a href="#">Newsletter</a>
+                    <img  src="images/arrowdown.png" alt="">
+                </li>
+            </ul>
+
+
+            <div class="kontakt">
+                <h4>Ostanite sa nama u kontaktu</h4>
+                <p>Aktualne informacije prilagodjene Vasim interesima</p>
+                <input placeholder="Vasa E-mail Adresa" type="email">
+                <img class="emailstrelica" src="images/arrowdown.png" alt="">
+                <hr class="vertikalnalinija3">
+                
+                
+            </div>
+    
+            
+    
+            <div class="drustvene">
+                <li><a href="#"><img src="images/fb.svg" alt=""></a></li>
+                <li><a href="#"><img src="images/instagram.svg" alt=""></a></li>
+                <li><a href="#"><img src="images/yt.svg" alt=""></a></li>
+    
+               
+            </div>
+            <div class="lin">
+                <hr class="vertikalnalinija3">
+            </div>
+            
+
+            <div class="probnavoznja">
+                <ul>
+                    <li>
+                        <img src="images/mecka.svg" alt="">
+                        <p>Pretraga prodavatelja</p>
+                       
+                    </li>
+                    <li>
+                        <img src="images/probnavoznja.svg" alt="">
+                        <p>Probna Voznja</p>
+                        
+                    </li>
+                    <li>
+                        <img src="images/kontakt.svg" alt="">
+                        <p>Kontakt</p>
+                    </li>
+                    
+                </ul>
+                <hr id="linija2">
+                <hr id="linija3">
+            </div>
+
+
+    
+
+
+
+
+            <div class="siviblokdole"></div>
+        </div>
+
+
+    </div>
+ </div>
+
+<div class="tablet">
+    <div class="header">
+        <ul class="navigacija">
+            <li><img src="images/carlogo.png" onclick="livimenufunkcija()" class="carlogo" alt="carlogo"></li>
+            <li onclick="window.location.href='index.html';"><img src="images/mercedeslogo.png" class="mercedeslogo" alt="mercedeslogo"></li>
+            <li><img src="images/menu.png" onclick="desnaAnimacija()" class="menuscroll" alt="menu"></li>
+        </ul>
+    </div>
+    <div class="pcheader">
+        <div class="pcheaderlogoitekst">
+          <div class="pcheaderslika">
+              <img onclick="window.location.href='index.html';" src="images/pc/meckalogo.svg" alt="">
+          </div>
+          <div class="pcheadertekst">
+            <p>Mercedes-Benz</p>
+            <p>The best or nothing.</p>
+          </div>            
+        </div>         
+    </div>
+
+    <div class="uvod">
+        <div class="slika">
+            <img class="slikaklase" src="images/kompaktneAklasa/aklasa.jpeg" alt="">
+        </div>
+        <div class="sivalista">
+            <ul>
+                <li onclick="izbrisiPopup()">
+                    <a id="autiImeStranice" class="autiImeStranice" href="#"> A-klasa Kompaktna limuzina</a>
+                </li>
+                <li onclick="dizajn()">
+                    <a href="#pcDizajn">Dizajn</a>
+                </li>
+                <li onclick="komfor()">
+                    <a href="#pcKomfor">Komfor</a>
+                </li>
+                <li onclick="sigurnost()">
+                    <a href="#pcSigurnost">Sigurnost</a>
+                </li>
+                <li onclick="specifikacije()">
+                    <a href="#pcSpecifikacije">Specifikacije</a>
+                </li>
+                <li onclick="cijenik()">
+                    <p>Cijenik</p>
+                </li>
+                <li onclick="mercedesAMG()">
+                    <p>Mercedes-AMG</p>
+                </li>
+            </ul>
+        </div>
+        <div class="tabletopacityblok">
+            
+        </div>
+        <h2 class="vrstaklase">A-Klasa.</h2>
+        <p class="opis1">Posebna poput vas.</p>
+ 
+    </div>
+
+    <div class="sivocrnikontenjer">
+        <p class="znacajke" >Najvaznije znacajke vozila</p>
+        <hr class="crtica">
+        <h2 class="posebna" >Sto A-klasu cini tako posebnom?</h2>
+        <p class="posebnap">Jednostavno je pitajte sami. Ona govori, razumije, razmislja i osjeca se ocaravajuce ljudskom</p>
+
+        <div class="tabletslike1">
+            <img  onclick="zoomSlike()" class="tabletslike1child" src="images/2KompaktniAklasa/slika1.jpeg" alt="">
+            <img onclick="zoomSlike()" class="tabletslike1child" src="images/2KompaktniAklasa/slika2.jpeg" alt="">
+            <img onclick="zoomSlike()" class="tabletslike1child" src="images/2KompaktniAklasa/slika3.webp" alt="">
+        </div>
+
+        <p id="pcDizajn" class="znacajke2">Dizajn</p>
+        <hr class="crtica"></hr>
+        <h2 class="posebna2">Novi dizajn? Nova era.</h2>
+        <p class="posebnap2">Sve linije A-klase slijede samo jedan smjer: jasnocu percepcije nase filozofije dizajna</p>
+
+
+        <div class="tabletslike2">
+            <div onmouseover="crno1()" class="testing">
+                <div class="eksterijer">
+                    <img id="ext" class="eksterijerslika" src="images/2KompaktniAklasa/slika4.jpeg" alt="">
+                    <p >Na dizajn eksterijera</p>
+                </div>
+            </div>
+            <div onmouseover="crno1()" class="testing2">
+                <div class="interijer">
+                    <img id="int" class="interijerslika" src="images/2KompaktniAklasa/slika5.jpeg" alt="">
+                    <p >Na dizajn interijera</p>
+                </div>
+            </div>
+
+            <div class="pcCrniZoom">
+                <div onmouseover="crno1()" onmouseout="vrati()" class="zoom1">
+                    <p>Na dizajn eksterijera</p>
+                </div>
+                <div onmouseover="crno2()"onmouseout="vrati2()" class="zoom2">
+                    <p>Na dizajn interijera</p>
+                </div>
+            </div>
+            
+        </div>
+
+        
+
+        <p id="pcKomfor" class="znacajke3">Komfor</p>
+        <hr class="crtica"></hr>
+        <h2 class="posebna3">Mozemo li razgovarati?</h2>
+        <p class="posebnap3">O potpuno novom nacinu upravljanja automobilom. O intuiciji i umijecu svakodnevnog ucenja. O komforu A-klase.</p>
+
+        <div class="komfor">
+            <div class="komforslika">
+                <img class="slikakomfora" src="images/2KompaktniAklasa/slika6.jpeg" alt="">
+            </div>
+            <div class="komforopis">
+                <h2 class="posebnaa"> Odabrana istaknuta obiljezja:</h2>
+                <ul>
+                    <li class="1listaTockice1">MBUX(Mercedes-Benz User Expirience)</li>
+                    <li class="1listaTockice2">Sustav glasovnog upravljanja LINGUATRONIC</li>
+                    <li class="1listaTockice3">Head-up Zaslon</li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="komfordugme">
+            <p>Vise o komforu</p>
+        </div>
+
+    
+        <p id="pcSigurnost" class="znacajke4">Sigurnost</p>
+        <hr class="crtica"></hr>
+        <h2 class="posebna4">Pricajmo o povjerenju.</h2>
+        <p class="posebnap4">Moderni sigurnosti sustavi A-klasu pretvaraju u Vaseg budnog pratioca. U slucaju opasnosti mogu automatski reagirati i osjetno rasteriti vozaca.</p>
+
+        <div class="sigurnost">
+            <div class="sigurnostopis">
+                <h2 class="posebnaa2"> Odabrana istaknuta obiljezja:</h2>
+                <ul >
+                    <li class="2listaTockice1">Paket pomoci u voznji</li>
+                    <li class="2listaTockice2">PRE-SAFE Sound</li>
+                    <li class="2listaTockice3">Car-to-X-Communication</li>
+                    <li class="2listaTockice4">Svjetla MULTIBEAM LED</li>
+                </ul>  
+
+            </div>
+            <div class="sigurnostslika">
+                <img class="sigurnostslika1"src="images/2KompaktniAklasa/slika7.webp" alt="">
+            </div>
+        </div>
+        <div class="sigurnostdugme">
+            <p>Vise o Sigurnosti</p>
+        </div>
+        
+        <p id="pcSpecifikacije" class="znacajke5">Specifikacije</p>
+        <hr class="crtica"></hr>
+        <h2 class="posebna5">Jasno izrazeno.</h2>
+        <p class="posebnap5"> Visoko razvijena tehnologija novih motora ocituje se u vecoj snazi i boljoj ucinkovitosti koje se temelje na kombinaciji najmodernijih tehnoloskih modula i brojnih detalja pojedinacnih mjera. To je osobito vidljivo na modelu A 250 e:prvom plug-in hibridu A-klase Limuzine.</p>
+        
+
+        <div class="specifikacije">
+            <div class="tabletliste">
+                <p class="lista1-1">Snazni</p>
+                <p class=lista1-2>motori</p>
+                <hr class="crticavelika"></hr>
+                <p class="lista1-3">Prostrana</p>
+                <p class="lista1-4">unutrasnjost</p>
+                <hr class="crticavelika"></hr>
+                <p class="lista1-5">Domet na elektricni pogon</p>
+                <p class="lista1-6">do 75 kilometara</p>
+            </div>
+            <div class="specifikacijeslika">
+                <img class="specifikacijeslika1" src="images/2KompaktniAklasa/slika8.jpeg" alt="">
+            </div>  
+
+          
+        </div>
+
+        <div class="specifikacijedugme">
+            <p>Vise o specifikacijama</p>
+        </div>
+        
+        <p class="specifikacijepotrosnja"> Potrosnja strujje modela A 250 e u kombiniranom ispitnom ciklusu: 15,0-14.8kWh/100 km; <br> potrosnja goriva, prosjek: 1,5-1,4l/100 km; emisije CO2, prosjek: 34-33g/km</p>
+
+        <p class="sivitekst">[1]
+                Podaci o nazivnoj snazi i nazivnom okretnom momentu sukladno Uredbi (EZ) br. 715/2007 u trenutačno vrijedećoj verziji.<br><br>
+                
+                [2]
+                Navedene vrijednosti izračunate su pomoću propisanog mjernog postupka. To su „izmjerene vrijednosti CO2 koje su dobivene ispitivanjem vozila u skladu s NEDC-om” u smislu čl. 2. br. 1 Provedbene uredbe Komisije (EU) 2017/1153. Podaci o potrošnji goriva izračunati su na temelju tih vrijednosti. Potrošnja struje izračunata je na temelju Uredbe 692/2008/EZ.</p>
+
+        <div class="amgID">
+            <p class="znacajke6">Mercedes-AMG</p>
+            <hr class="crtica"></hr>
+            <h2 class="posebna6">Mercedes-AMG A-klasa</h2>
+            <img class="slikaAMG" src="images/2KompaktniAklasa/slika9.jpeg" alt="">
+
+            <div class="amglista">
+                
+                <div class="amgvertikala"></div>  
+                
+                <div class="amglista1">
+                    <p class="lista2-1">Okretni moment</p>
+                    <p class=lista2-2>400Nm do 500Nm</p>
+                </div>
+                <div class="amgvertikala"></div>
+                <div class="amglista2">
+                    <p class="lista2-3">Ubrzanje</p>  
+                    <p class="lista2-4">4,7 s do 3.9s</p>
+                    <p class="lista2-5">od 0 do 100km/h</p>
+                </div> 
+                <div class="amgvertikala"></div>
+                <div class="amglista3">
+                    <p class="lista2-6">Snaga</p>
+                    <p class="lista2-7">225kW do 310kW</p>
+                </div>
+ 
+            </div>
+
+            <div class="amgdugme">
+                <p>Vise o Mercedes-AMG</p>
+            </div>
+
+            <p class="amgopis"> Za A-klasu su dostupni modeli Mercedes-AMG A 35 4MATIC, Mercedes-AMG A 45 4MATIC+ i Mercedes-AMG A 45 S 4MATIC+.
+
+                Mercedes-AMG A 35 4MATIC potrošnja goriva, prosjek: 7,3 l/100 km, emisije CO2, prosjek: 169-167 g/km;
+                Mercedes-AMG A 45 4MATIC+ potrošnja goriva, prosjek: 8,3 l/100 km, emisije CO2, prosjek: 192-189 g/km;
+                Mercedes-AMG A 45 S 4MATIC+ potrošnja goriva, prosjek: 8,3 l/100 km, emisije CO2, prosjek: 192-189 g/km</p>
+
+            <p class="amgsivitekst">[1]
+            Podaci o nazivnoj snazi i nazivnom okretnom momentu sukladno Uredbi (EZ) br. 715/2007 u trenutačno vrijedećoj verziji.<br><br>
+            
+            [2]
+            Navedene vrijednosti izračunate su pomoću propisanog mjernog postupka. To su „izmjerene vrijednosti CO2 koje su dobivene ispitivanjem vozila u skladu s NEDC-om” u smislu čl. 2. br. 1 Provedbene uredbe Komisije (EU) 2017/1153. Podaci o potrošnji goriva izračunati su na temelju tih vrijednosti. Potrošnja struje izračunata je na temelju Uredbe 692/2008/EZ.</p>
+            
+          
+        </div>
+        
+    </div>
+
+    <div class="footer">
+        <div class="lokacija">
+            <p>Osobna vozila > Modeli ></p>
+            <p>A-klasa</p>
+        </div>
+        <div class="footercrtica"></div>
+        <div class="footerkontakt">
+            <div class="footerkontakt1dio">
+                <p id="footerkontakt">Ostanite s nama u kontaktu</p>
+                <p>Aktualne informacije prilagodjene Vasim interesima.</p>
+                <div class="blok1">
+                    <input type="text" placeholder="Vasa E-mail Adresa">
+                    <div class="footerdugme">
+                        <p>Pretplatite se</p>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="footerkontakt2dio">
+                <div class="drustvene">
+                    <p>Mercedes benz na drustvenim mrezama:</p>
+                </div>
+                <div class="drustveneslike">
+                    <img src="images/fb.svg" alt="">
+                    <img src="images/yt.svg" alt="">
+                    <img src="images/instagram.svg" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div class="footercrnidio">
+            <ul>
+                <li>2020.Star Import d.o.o. Sva prava pridrzana</li>
+                <div class="footervertikalnacrta"></div>
+                <li>Postavke</li>
+                <div class="footervertikalnacrta"></div>
+                <li>Zastita podataka</li>
+                <div class="footervertikalnacrta"></div>
+                <li>Pravne napomene</li>
+            </ul>
+        </div>
+
+
+        
+    </div>
+
+
+</div>
+
+    <div id="zumiraneSlike" class="zoom">
+          <img id="zoomVelika" src="images/2KompaktniAklasa/slika1.webp" alt="">
+          <img onclick="uvelicaj1()" id="zoomSlika1"src="images/2KompaktniAklasa/slika1.webp" alt="">    
+          <img onclick="uvelicaj2()"id="zoomSlika2"src="images/2KompaktniAklasa/slika2.jpeg" alt="">
+          <img onclick="uvelicaj3()" id="zoomSlika3"src="images/2KompaktniAklasa/slika3.webp" alt="">
+          <div class="crticazoom">
+
+          </div>
+          <div class="izlazZoom">
+              <img onclick="ugasiZoom()" id="xx" src="images/x.png" alt="">
+          </div>
+    </div>
+   
+
+
+    <script src="modeli.js"></script>
+</body>
+</html>

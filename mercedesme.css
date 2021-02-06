@@ -1,0 +1,146 @@
+body{
+    padding:0;
+    margin:0;
+}
+.bekgrand img{
+    width:100vw;
+    height:51vw;
+}
+
+.kontenjer{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+
+}
+
+.login{
+    background-color:white;
+    position:absolute;
+    width:35vw;
+    height:25vw;
+
+}
+
+header{
+    width:35vw;
+    height:3vw;
+    position:absolute;
+    top:0;
+    background-color:black;
+}
+
+header p{
+    color:white;
+    text-align:center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:bold;
+}
+
+.paragraf1 h2{
+    font-size:2vw;
+    text-align: center;
+    margin-top:2em;
+}
+
+.paragraf1 p{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    font-size:1vw;
+}
+
+.input{
+    padding-left:2vw;
+    padding-right:2vw;
+}
+
+.input #logininput{
+    width:30vw;
+    height:2vw;
+    outline-color:rgb(86, 181, 245);
+
+}
+
+.input #logininput:focus{
+    background-color:#e7e7e7;
+}
+
+.input2{
+    display:flex;
+    align-items:center;
+    width:8vw;
+    justify-content: space-between;
+    font-size:1vw;
+}
+
+.input2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:1vw;
+    
+}
+.input2 input{
+    margin-top:-.2em;
+    cursor: pointer;
+}
+
+.dugme{
+    width:31vw;
+    height:3.5vw;
+    background-color:rgb(13, 178, 255);
+    margin-left:2vw;
+    border-radius:1em;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+
+.dugme p{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+    
+}
+
+.dugme:hover{
+    background-color:rgb(0, 174, 255);
+    cursor: pointer;
+}
+
+.registracija{
+    display:Flex;
+    
+    align-items:center;
+    font-size:1vw;
+    justify-content: center;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.registracija a{
+    padding-left:2em;
+    text-decoration: none;
+    color:rgb(0, 174, 255);
+    
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.footer{
+    width:35vw;
+    
+    height:4vw;
+    background-color:black;
+    display:flex;
+    align-items:center;
+    
+}
+
+.footer p{
+    cursor: pointer;
+    color:rgb(185, 185, 185);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:1vw;
+    padding-left:23vw;
+}
+

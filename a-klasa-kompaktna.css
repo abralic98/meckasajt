@@ -1,0 +1,2619 @@
+*{
+    margin:0;
+    padding:0;
+    
+    scroll-behavior: smooth;
+
+}
+
+.container{
+    margin:0;
+    padding:0;
+}
+
+@media only screen and (max-width:635px){
+    .zoom{
+        display:none;
+    }
+
+    .tablet{
+        display:none;
+    }
+
+    .pcheader{
+        display:none;
+    }
+
+    .pcCrniZoom{
+        display:none;
+    }
+}
+/* header */
+
+
+
+
+.header{
+    background-color:black;
+    width:auto;
+    height:4.5em;
+    position:relative;
+    
+       
+}
+
+.pcCrniZoom{
+    display:none;
+}
+
+.navigacija{
+    
+    display:flex;
+    justify-content: space-between;
+    padding-left:2em;
+    padding-right:2em;
+    align-items: center;
+    
+}
+
+.carlogo{
+    width:2em;
+    height:auto;
+    
+}
+
+.mercedeslogo{
+    width:2em;
+    padding-left:1em;
+    
+    
+}
+
+.menuscroll{
+    width:4em;
+
+}
+
+#strelicadole{ /* strelica na sivom baru */ 
+    width:1em;
+    height:auto;
+    transform:translate(15em,-1em);
+
+
+}
+
+.siviskrolbar{
+    width:auto;
+    height:2.5em;
+    background-color:rgb(44, 44, 44);
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    max-width: 40em;
+    min-width:10em;
+    color:white;
+    position:sticky;
+    top:0;
+    z-index: 5;
+    
+}
+
+.siviskrolbar p{
+    padding-top:.7em;
+    padding-left:1em;
+}
+
+.slikaaklase{
+    width:auto;
+    
+    
+    position:relative;
+    overflow: hidden;
+    max-width: 40em;
+    min-width:10em;
+    
+    
+}
+
+.slikaaklase img{
+    width:100vw;
+    height:auto;
+    position:relative;
+    max-width: 40em;
+    
+}
+
+
+.crnikontenjer{
+    max-width: 40em;
+    min-width:10em;
+    height:auto;
+    background-color:black;
+    color:white;
+    position:relative;
+    display:block;
+    
+}
+
+.crnikontenjer #vrstaklase{
+    font-size:5vw;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left:1em;
+    padding-top:1em;
+    width:auto;
+    
+   
+}
+
+.crnikontenjer #opis1{
+    font-size:3.5vw;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top:3vw;
+    padding-left:5vw;
+
+}
+
+.crnikontenjer #znacajke{
+    font-size:3.5vw;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top:8vw;
+    padding-left:5vw;
+
+}
+
+.crnikontenjer #znacajke2{
+    font-size:3.5vw;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top:8vw;
+    padding-left:5vw;
+
+}
+
+.crnikontenjer #vertikalnalinija{
+    color:white;
+    width:8vw;
+    
+    border:1px thick white;
+    margin-left:5vw;
+    margin-top:4vw;
+    
+}
+
+.crnikontenjer #posebna{
+    font-size:5vw;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left:1em;
+    padding-top:2em;
+    width:auto;
+    
+   
+}
+
+.crnikontenjer #posebnap{
+    font-size:3.5vw;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top:1em;
+    padding-left:1.5em;
+    padding-right:1em;
+
+}
+
+.crnikontenjer #posebna2{
+    font-size:5vw;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left:1em;
+    padding-top:2em;
+    width:auto;
+    
+   
+}
+
+.crnikontenjer #posebnap3{
+    font-size:3.5vw;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top:1em;
+    padding-left:1.5em;
+    padding-right:1em;
+
+}
+
+.crnikontenjer #posebna3{
+    font-size:5vw;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left:1em;
+    padding-top:2em;
+    width:auto;
+    
+   
+}
+
+.crnikontenjer #posebnaa{
+    font-size:5vw;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left:1em;
+    padding-top:2em;
+    width:auto;
+    
+   
+}
+
+.crnikontenjer #posebnap2{
+    font-size:3.5vw;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top:1em;
+    padding-left:1.5em;
+    padding-right:1em;
+
+}
+
+.crnikontenjer #posebnap4{
+    font-size:3.5vw;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top:1em;
+    padding-left:1.5em;
+    padding-right:1em;
+
+}
+
+.crnikontenjer #posebna4{
+    font-size:5vw;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left:1em;
+    padding-top:2em;
+    width:auto;
+    
+   
+}
+
+.crnikontenjer #posebnaa2{
+    font-size:5vw;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left:1em;
+    padding-top:2em;
+    width:auto;
+    
+   
+}
+
+.crnikontenjer #posebnap5{
+    font-size:3.5vw;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top:1em;
+    padding-left:1.5em;
+    padding-right:1em;
+
+}
+
+.crnikontenjer #posebna5{
+    font-size:5vw;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left:1em;
+    padding-top:2em;
+    width:auto;
+    
+   
+}
+
+.slajder{
+    margin-top:3em;
+    background-color:rgb(43, 43, 43);
+    margin-left:1em;
+    margin-right:1em;
+    height:70vw;
+}
+
+
+
+.slajder .swiper-container{
+    height:70vw;
+    
+    
+}
+
+.slajder .swiper-pagination{
+    padding-bottom:1vw;
+}
+
+
+
+.mecke img{
+    width:100vw;
+}
+
+.slajder2 .mecke p{
+    padding-left:8vw;
+    padding-top:1em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.slajder2{
+    margin-top:3em;
+    background-color:rgb(43, 43, 43);
+    margin-left:1em;
+    margin-right:1em;
+    height:80vw;
+}
+
+
+
+.slajder2 .swiper-container{
+    height:80vw;
+    
+    
+}
+
+.slajder2 .swiper-pagination{
+    padding-bottom:1vw;
+}
+
+
+.slika6{
+    width:auto;
+    
+    
+    position:relative;
+    overflow: hidden;
+    max-width: 40em;
+    min-width:10em;
+    
+    
+}
+
+.slika6 img{
+    width:90vw;
+    height:auto;
+    position:relative;
+    max-width: 40em;
+    
+    margin:5vw;
+    
+}
+
+.listatockice{
+    padding-left:10vw;
+}
+.listatockice li{
+    padding-top:2vw;
+    font-size:3.5vw;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.dugme{
+    display:block;
+    width:90vw;
+    text-align:center;
+    background-color:rgb(0, 137, 190);
+    margin:5vw;
+    
+}
+
+.dugme p{
+    color:white;
+    padding:3vw;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.slika7{
+    width:auto;
+    
+    
+    position:relative;
+    overflow: hidden;
+    max-width: 40em;
+    min-width:10em;
+    
+    
+}
+
+.slika7 img{
+    width:80vw;
+    height:auto;
+    position:relative;
+    max-width: 40em;
+    
+    margin:10vw;
+    
+}
+
+
+.crnikontenjer #vertikalnalinija2{
+    color:white;
+    width:75vw;
+    margin-top:3vw;
+    border:1px thick white;
+    margin-left:7vw;
+    margin-bottom:5vw;
+    
+    
+}
+.crnikontenjer #lista1-1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:4vw;
+    padding-left:7vw;
+    padding-top:2vw;
+}
+
+.crnikontenjer #lista1-2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:10vw;
+    padding-left:7vw;
+    padding-top:2vw;
+}
+
+.crnikontenjer #lista1-3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:4vw;
+    padding-left:7vw;
+    padding-top:2vw;
+}
+
+.crnikontenjer #lista1-4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:10vw;
+    padding-left:7vw;
+    padding-top:2vw;
+}
+
+.crnikontenjer #lista1-5{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:4vw;
+    padding-left:7vw;
+    padding-top:2vw;
+}
+
+.crnikontenjer #lista1-6{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:10vw;
+    padding-left:7vw;
+    padding-top:2vw;
+}
+
+.crnikontenjer #lista2-1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:4vw;
+    padding-left:7vw;
+    padding-top:2vw;
+}
+
+.crnikontenjer #lista2-2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:10vw;
+    padding-left:7vw;
+    padding-top:2vw;
+}
+
+.crnikontenjer #lista2-3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:4vw;
+    padding-left:7vw;
+    padding-top:2vw;
+}
+
+.crnikontenjer #lista2-4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:10vw;
+    padding-left:7vw;
+    padding-top:2vw;
+}
+
+.crnikontenjer #lista2-5{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:4vw;
+    padding-left:7vw;
+    padding-top:2vw;
+}
+
+.crnikontenjer #lista2-6{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:10vw;
+    padding-left:7vw;
+    padding-top:2vw;
+}
+
+.crnikontenjer #sivitekst{
+    color:grey;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:3vw;
+    padding:8vw;
+}
+
+.listalinkovi li img{
+    width:4vw;
+}
+
+
+
+.listalinkovi{
+    display:flex;
+    flex-direction:column;
+    width:90vw;
+    background-color:rgb(34, 34, 34);
+    margin:5vw;
+    list-style-type: none;
+   
+
+}
+
+.listalinkovi li img{
+    
+   float:right;
+   
+   padding-top:2vw;
+}
+.listalinkovi a{
+    text-decoration: none;
+    color:white;
+    
+
+    font-size:5vw;
+    
+    
+}
+
+.listalinkovi li{
+    padding:5vw;
+    
+}
+
+.listalinkovi #vertikalnalinija3{
+    
+    width:90vw;
+    border-color:black;
+    border-top:1px thick;
+    
+    
+    
+}
+
+
+
+
+.kontakt{
+    padding:5vw;
+    background-color: #1f1f1f;
+    color:white;
+}
+
+.kontakt h4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:1.3em;
+}
+
+.kontakt p{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top:5vw;
+    padding-bottom:5vw;
+}
+
+.kontakt input{
+    width:75vw;
+    height:8.5vw;
+}
+
+.emailstrelica{
+    width:9vw;
+    
+    background-color:#4b4b4b;
+    transform:rotate(270deg) translate(-3.4vw,2vw);
+    
+    
+    
+}
+
+.drustvene{
+    display:flex;
+    justify-content: space-between;
+    padding:1em;
+    list-style: none;
+    padding-left:3em;
+    padding-right:3em;
+    background-color:#1f1f1f;
+    margin-top:-.1em;
+    height:18vw;
+    
+}
+
+.drustvene li:nth-child(1){
+    width:3em;
+}
+.drustvene li:nth-child(2){
+    width:3em;
+}
+.drustvene li:nth-child(3){
+    width:3em;
+}
+
+
+.kontakt .vertikalnalinija3{
+    border-color:grey;
+    border-top:1px thick;
+    margin-top:5vw;
+    width:90vw;
+}
+
+.kontakt .vertikalnalinija3{
+    border-color:grey;
+    border-top:1px thick;
+    margin-top:5vw;
+    width:90vw;
+}
+
+.lin .vertikalnalinija3{
+    border-color:grey;
+    border-top:1px thick;
+    margin-top:-5vw;
+    margin-left:5vw;
+    width:90vw;
+    
+}
+
+
+.probnavoznja{
+    margin-top:10vw;
+    background-color: rgb(39, 39, 39);
+    position:fixed;
+    bottom:0;
+    width:100vw;
+    z-index:500;
+    
+    
+}
+
+.probnavoznja ul li{
+    text-align: center;
+}
+
+.probnavoznja ul li:nth-child(1) img{
+    width:8vw;
+    padding-left:15vw;
+    padding-right:10vw;
+}
+
+.probnavoznja ul li:nth-child(2) img{
+    width:8vw;
+    margin-left:-7vw;
+    
+}
+
+.probnavoznja ul li:nth-child(3) img{
+    width:8vw;
+    transform: translate(-2vw);
+    
+}
+
+
+.probnavoznja ul li img{
+    width:8vw;
+    margin-left:-3vw;
+    padding-right:10vw;
+}
+
+.probnavoznja ul {
+    padding-top:1vw;
+    padding-bottom:3vw;
+    margin-top:5vw;
+    display:flex;
+    list-style-type: none;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.probnavoznja ul li p{
+    text-decoration: none;
+    font-size:2.5vw;
+ 
+    
+    padding-left: 2vw;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.probnavoznja ul li:nth-child(2) p{
+    margin-left:-19vw;
+}
+
+.probnavoznja ul li:nth-child(3) p{
+    transform: translate(-10vw);
+}
+
+.probnavoznja #linija2{
+    transform: rotate(90deg) translate(-8.95vw,-20vw);
+    border-top:1px thick;
+    border-color: black;
+    width:23vw;
+    
+    
+}
+
+.probnavoznja #linija3{
+    transform: rotate(90deg) translate(-8.95vw,-55vw);
+    border-top:1px thick;
+    border-color: black;
+    width:23.5vw;
+    
+    
+}
+
+
+.siviblokdole{ /*  da ne preklapa ovaj fixed tab drustvene mreze drugacije nez napravit zabagova mozak*/
+    display:block;
+    width:100vw;
+    height:30vw;
+}
+
+
+
+/* popup */ 
+
+.popup{
+    display:none;
+    
+    position:fixed;
+    background-color:black;
+    height:50em;
+    width:100vw;
+    height:100vh;
+    opacity:0.9;
+    top:0;
+    z-index:501;
+    
+}
+
+.popup ul li p{
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:4vw;
+}
+
+.popup ul li a{
+    color:rgb(0, 154, 201);
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-size:4vw;
+    font-weight: bold;
+}
+
+.popup ul li{
+    padding-top:7vw;
+    padding-left:5vw;
+}
+
+
+
+/* TABLET */ 
+
+
+@media only screen and (min-width:635px) and (max-width:1280px){
+    .malimobitel{
+        display:none;
+    }
+
+    .pcheader{
+        display:none;
+    }
+
+    .pcCrniZoom{
+        display:none;
+    }
+
+    .tablet .header{
+        background-color:black;
+        width: 100vw;
+        height:6em;
+        position:relative;
+       
+        
+    }
+
+
+    .navigacija{
+        transform:translateY(1em);
+    }
+
+    .tablet .sivalista{
+        display:block;
+        background-color:black;
+        opacity: 0.8;
+        width:85vw;
+        
+        position:absolute;
+        top:8em;
+        margin-left:7.5vw;
+
+    }
+
+    .tablet .sivalista ul{
+        display:flex;
+        justify-content: space-around;
+        list-style-type: none;
+    }
+
+    .tablet .sivalista ul li{
+        text-decoration: none;
+        padding:1vw;
+        color:white;
+        font-weight: bold;
+        font-size:14px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    
+
+    .tablet .sivalista ul li:nth-child(1) a{
+        text-decoration: none;
+        color:rgb(7, 174, 252);
+        font-weight: bold;
+       
+        font-size:14px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .tablet .sivalista ul li:nth-child(2) a{
+        text-decoration: none;
+        color:rgb(255, 255, 255);
+        font-weight: bold;
+       
+        font-size:14px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .tablet .sivalista ul li:nth-child(3) a{
+        text-decoration: none;
+        color:rgb(255, 255, 255);
+        font-weight: bold;
+       
+        font-size:14px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .tablet .sivalista ul li:nth-child(4) a{
+        text-decoration: none;
+        color:rgb(255, 255, 255);
+        font-weight: bold;
+       
+        font-size:14px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .tablet .sivalista ul li:nth-child(5) a{
+        text-decoration: none;
+        color:rgb(255, 255, 255);
+        font-weight: bold;
+       
+        font-size:14px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .tablet .uvod .slika{        
+        width:100vw;       
+        position:relative;       
+    }
+
+    .tablet .uvod .slika img{
+        width:100vw;
+        position:relative;
+    }
+
+    .tablet .uvod .vrstaklase{
+        font-family: Arial, Helvetica, sans-serif;
+        position:absolute;
+        
+        top:8.5em;
+        left:7.5vw;
+        color:White;
+    }
+
+    .tablet .tabletopacityblok{
+        width:40vw;
+        height:33.3vw;
+        display:block;
+        background: rgb(0,0,0);
+        background: linear-gradient(90deg, rgba(0,0,0,0.6530987394957983) 0%, rgba(11,11,11,0.35898109243697474) 29%, rgba(23,23,23,0.16850490196078427) 63%, rgba(48,48,48,0) 100%);
+        position:absolute;
+        top:6em;
+        
+    }
+
+    .tablet .opis1{
+        font-family: Arial, Helvetica, sans-serif;
+        position:absolute;
+        top:16em;
+        left:7.5vw;
+        color:White;
+    }
+
+    /* sivocrni kontenjer */
+
+    .sivocrnikontenjer{
+        position:relative;
+        width: 100vw;
+        height:auto;
+        display:block;
+        background: rgb(41,41,41);
+        background: linear-gradient(180deg, rgba(41,41,41,1) 0%, rgba(28,28,28,1) 29%, rgba(0,0,0,1) 97%, rgba(0,0,0,1) 100%);
+    }
+
+    .sivocrnikontenjer .znacajke{
+        color:white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        padding-top:8vw;
+        padding-left:7.5vw;
+    }
+
+    .sivocrnikontenjer .posebna{
+        color:white;
+        font-family: Arial, Helvetica, sans-serif;
+        padding-top:3vw;
+        padding-left:7.5vw;
+        
+    }
+
+    .sivocrnikontenjer .posebnap{
+        color:white;
+        font-family: Arial, Helvetica, sans-serif;
+        
+        padding-top:2vw;
+        padding-right:7.5vw;
+        padding-left:7.5vw;
+    }
+
+    .sivocrnikontenjer .crtica{
+        width:5vw;
+        margin-left: 7.5vw;
+        margin-top:1vw;
+        border:1px white thick;
+    }
+
+    .tabletslike1 img:nth-child(1){
+        width:50vw;
+        padding-left:7.5vw;
+        padding-top:3vw;
+    }
+
+    .tabletslike1 img:nth-child(2){
+        width:25vw;
+        transform:translate(2vw,-14vw)
+
+    }
+
+    .tabletslike1 img:nth-child(3){
+        width:20vw;
+        transform:translate(60vw,-11.8vw)
+
+    }
+
+    .sivocrnikontenjer .znacajke2{
+        color:white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        padding-top:8vw;
+        padding-left:7.5vw;
+    }
+
+    .sivocrnikontenjer .posebna2{
+        color:white;
+        font-family: Arial, Helvetica, sans-serif;
+        padding-top:3vw;
+        padding-left:7.5vw;
+    }
+
+    .sivocrnikontenjer .posebnap2{
+        color:white;
+        font-family: Arial, Helvetica, sans-serif;
+        
+        padding-top:2vw;
+        padding-right:7.5vw;
+        padding-left:7.5vw;
+    }
+
+    .sivocrnikontenjer .tabletslike2 {   
+        padding-top:3vw;      
+        padding-left:7.5vw;      
+        padding-right:7.5vw;
+        display:flex;
+        
+    }
+    
+
+    .sivocrnikontenjer .tabletslike2 p{
+        color:white;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .sivocrnikontenjer .tabletslike2 img{
+        width:40.5vw;
+        
+    }
+
+    .testing2{
+        margin-left:3vw;
+    }
+
+
+    
+    .sivocrnikontenjer .znacajke3{
+        color:white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        padding-top:8vw;
+        padding-left:7.5vw;
+    
+    }
+    .sivocrnikontenjer .posebna3{
+        color:white;
+        padding-left:7.5vw;
+        padding-top:2vw;
+        font-family: Arial, Helvetica, sans-serif;
+        
+    }
+
+    .sivocrnikontenjer .posebnap3{
+        color:white;
+        padding-left:7.5vw;
+        padding-top:2vw;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .sivocrnikontenjer .posebnaa{
+        color:white;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .sivocrnikontenjer .komfor{
+        display:flex;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .sivocrnikontenjer .komfor .komforslika img{
+        width:40vw;
+        
+    }
+
+    .sivocrnikontenjer .komfor .komforslika{
+        padding-left:7.5vw;
+        padding-top:3vw;
+    }
+
+    .sivocrnikontenjer .komfor .komforopis .posebnaa{
+        padding-top:3vw;
+        padding-left:3vw;
+        
+    }
+
+    .sivocrnikontenjer .komfor .komforopis ul{
+        color:White;
+        padding-left:5vw;
+        padding-top:2vw;
+    }
+
+    .sivocrnikontenjer .komfor .komforopis ul li{
+        color:White;
+        padding-top:2vw;
+    }
+
+    .sivocrnikontenjer .komfordugme{
+        color:white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        text-align:center;
+        width:15vw;
+        background-color:rgb(0, 137, 190);
+        padding:1vw;
+        transform:translate(50vw);
+        
+    }
+
+
+    .sivocrnikontenjer .znacajke4{
+        color:white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        padding-top:8vw;
+        padding-left:7.5vw;
+    
+    }
+
+    .sivocrnikontenjer .posebna4{
+        color:white;
+        padding-left:7.5vw;
+        padding-top:2vw;
+        font-family: Arial, Helvetica, sans-serif;
+        
+    }
+
+    .sivocrnikontenjer .posebnap4{
+        color:white;
+        padding-left:7.5vw;
+        padding-top:2vw;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .sivocrnikontenjer .posebnaa2{
+        color:white;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+   
+    .sivocrnikontenjer .sigurnost{
+        display:flex;
+        justify-content: space-between;
+        padding-left:7.5vw;
+        padding-right:7.5vw;
+        padding-top:10vw;
+        color:White;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .sivocrnikontenjer .sigurnost ul{
+        padding-top:2vw;
+        padding-left:2vw;
+    }
+
+    .sivocrnikontenjer .sigurnost ul li{
+        padding-top:1vw;
+       
+    }
+    .sivocrnikontenjer .sigurnost .sigurnostslika img{
+        width:40vw;
+    }
+
+    .sivocrnikontenjer .sigurnostdugme{
+        color:white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        text-align:center;
+        width:15vw;
+        background-color:rgb(0, 137, 190);
+        padding:1vw;
+        margin-left:7.5vw;
+        
+
+    }
+
+    .sivocrnikontenjer .znacajke5{
+        color:white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        padding-top:8vw;
+        padding-left:7.5vw;
+    
+    }
+
+    .sivocrnikontenjer .posebna5{
+        color:white;
+        padding-left:7.5vw;
+        padding-top:2vw;
+        font-family: Arial, Helvetica, sans-serif;
+        
+    }
+
+    .sivocrnikontenjer .posebnap5{
+        color:white;
+        padding-left:7.5vw;
+        padding-top:2vw;
+        padding-right:7.5vw;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .sivocrnikontenjer .specifikacije{
+        display:Flex;
+        color:white;
+        padding-left:7.5vw;
+        padding-right:7.5vw;
+    }
+
+    .sivocrnikontenjer .specifikacijeslika img{
+        width:50vw;
+        
+    }
+
+
+    .sivocrnikontenjer .specifikacije .lista1-1{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size:2em;
+    }
+
+    .sivocrnikontenjer .specifikacije .lista1-2{
+        font-family: Arial, Helvetica, sans-serif;
+        
+    }
+
+    .sivocrnikontenjer .specifikacije .lista1-3{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size:2em;
+    }
+    .sivocrnikontenjer .specifikacije .lista1-4{
+        font-family: Arial, Helvetica, sans-serif;
+       
+    }
+    .sivocrnikontenjer .specifikacije .lista1-5{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size:2em;
+    }
+    .sivocrnikontenjer .specifikacije .lista1-6{
+        font-family: Arial, Helvetica, sans-serif;
+        
+    }
+
+    .sivocrnikontenjer .specifikacije{
+        padding-top:2em;
+    }
+
+    
+    .sivocrnikontenjer .specifikacije .tabletliste p:nth-child(2){
+        padding-top:2vw;
+    }
+    
+    .sivocrnikontenjer .specifikacije .tabletliste hr:nth-child(3){
+        margin-top:2vw;
+        width:30vw;
+    }
+
+    .sivocrnikontenjer .specifikacije .tabletliste p:nth-child(4){
+        padding-top:2vw;
+    }
+
+    .sivocrnikontenjer .specifikacije .tabletliste p:nth-child(5){
+        padding-top:2vw;
+    }
+
+    .sivocrnikontenjer .specifikacije .tabletliste hr:nth-child(6){
+        margin-top:2vw;
+        width:30vw;
+    }
+
+    .sivocrnikontenjer .specifikacije .tabletliste p:nth-child(7){
+        padding-top:2vw;
+        padding-right:2vw;
+    }
+
+    .sivocrnikontenjer .specifikacije .tabletliste p:nth-child(8){
+        padding-top:2vw;
+        
+    }
+
+    .sivocrnikontenjer .specifikacijedugme{
+
+        display:block;
+        width:20vw;
+        text-align:center;
+        color:white;
+        background-color:rgb(0, 137, 190);
+        
+        margin-left:7.5vw;
+        margin-top:2vw;
+        padding:1vw;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+
+    }
+
+    .sivocrnikontenjer .specifikacijepotrosnja{
+        color:White;
+        font-family: Arial, Helvetica, sans-serif;
+        padding-left:7.5vw;
+        padding-right:7.5vw;
+        padding-top:3vw;
+    }
+
+    .sivocrnikontenjer .sivitekst{
+        color:grey;
+        padding-left:7.5vw;
+        padding-right:7.5vw;
+        padding-top:2vw;
+        padding-bottom:2em;
+    }
+
+
+    
+    .sivocrnikontenjer .znacajke6{
+        color:white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        padding-top:8vw;
+        padding-left:7.5vw;
+    
+    }
+
+    .sivocrnikontenjer .posebna6{
+        color:white;
+        padding-left:7.5vw;
+        padding-top:2vw;
+        font-family: Arial, Helvetica, sans-serif;
+        
+    }
+
+    .sivocrnikontenjer .amgID .slikaAMG {
+       width:85vw;
+       padding-left:7.5vw;
+       padding-top:3vw;
+    }
+
+
+
+    /* AMG */ 
+
+    .tablet .amgID .amglista{
+        display:flex;
+        color:White;
+        font-family: Arial, Helvetica, sans-serif;
+        padding-left:7.5vw;
+        padding-right:7.5vw;
+        padding-top:5vw;
+        justify-content: space-between;
+ 
+    }
+
+    .tablet .amgID .amglista .amgvertikala{
+        background-color:rgb(0, 137, 190);
+        width:.1vw;
+        height:15vw;
+    }
+
+  
+
+ 
+
+    .tablet .amgID .amglista .lista2-2{
+        font-size:3vw;
+        padding-top:3vw;
+    }
+
+    .tablet .amgID .amglista .lista2-4{
+        font-size:3vw;
+        padding-top:3vw;
+    }
+
+    .tablet .amgID .amglista .lista2-5{
+        
+        padding-top:3vw;
+    }
+
+    .tablet .amgID .amglista .lista2-7{
+        
+        padding-top:3vw;
+        font-size:3vw;
+    }
+
+    .tablet .amgdugme{
+        display:block;
+        width:20vw;
+        text-align:center;
+        background-color:rgb(0, 137, 190);
+        margin-left:7.5vw;
+        margin-top:2vw;
+        
+    }
+
+    .tablet .amgdugme p{
+            color:white;
+            padding:1vw;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+    }
+
+
+    .tablet .amgopis{
+        color:white;
+        font-family: Arial, Helvetica, sans-serif;
+        padding-left:7.5vw;
+        padding-right:7.5vw;
+        padding-top:3vw;
+    }
+
+    .tablet .amgsivitekst{
+        color:grey;
+        font-family: Arial, Helvetica, sans-serif;
+        padding-left:7.5vw;
+        padding-right:7.5vw;
+        padding-top:3vw;
+        padding-bottom:5vw;
+        
+    }
+
+    .tablet .footer{
+        background-color:rgb(32, 32, 32);
+        width:100vw;
+        
+        position:absolute;
+        height:33vw;
+        display:block;
+        color:white;
+        font-family: Arial, Helvetica, sans-serif;
+        
+    }
+
+
+    /*footer*/
+   
+
+    .tablet .footer .lokacija{
+        display:Flex;
+        padding-left:7.5vw;
+        font-weight: bold;
+        padding-top:2vw;
+    }
+
+    .tablet .footer .lokacija p:nth-child(2){
+        color:rgb(0, 137, 190);
+        padding-left:1vw;
+    }
+
+    .tablet .footer .footercrtica{
+        background-color:rgb(252, 252, 252);
+        width:85vw;
+        height:.1vw;
+        margin-left:7.5vw;
+        margin-right:7.5vw;
+        margin-top:2vw;
+
+    }
+
+    .tablet .footer .footerkontakt .footerkontakt1dio #footerkontakt{
+        padding-left:7.5vw;
+        padding-top:2vw;
+        font-size:3vw;
+        
+    }
+
+    .tablet .footer .footerkontakt .footerkontakt1dio p:nth-child(2){
+        padding-left:7.5vw;
+        padding-top:2vw;
+        
+        
+    }
+
+    .tablet .footer .footerkontakt .footerkontakt1dio .blok1{
+        display:flex;
+        
+        width:50vw;
+        margin-left:7.5vw;
+    }
+    .tablet .footer .footerkontakt .footerkontakt1dio .blok1 input{
+        
+        margin-top:2vw;
+        width:30vw;
+        padding:1vw;
+        
+        
+    }
+
+    .tablet .footer .footerkontakt .footerkontakt1dio .blok1 .footerdugme{
+        background-color:rgb(53, 53, 53);
+        font-family: Arial, Helvetica, sans-serif;
+        display:flex;
+        align-items: center;
+        width:13vw;
+        justify-content: center;
+        height:5vw;
+        margin-top:2vw;
+        margin-left:2vw;
+    
+    }
+
+    .tablet .footer .footerkontakt{
+        display:Flex;
+        margin-top:1vw;
+        
+        
+
+    }
+    
+    .tablet .footer .footerkontakt .footerkontakt2dio .drustveneslike{
+        
+        display:flex;
+        flex-direction: row;
+        align-items:center;
+        justify-content: center;
+        
+        
+    }
+    .tablet .footer .footerkontakt .footerkontakt2dio .drustvene{
+        
+        height:3em;
+    }
+
+    .tablet .footer .footerkontakt .footerkontakt2dio .drustveneslike img{
+        width:3em;
+        padding-left:1em;
+        
+       
+    }
+
+    .tablet .footer .footerkontakt .footerkontakt2dio .drustveneslike img:nth-child(1){
+        width:3em;
+        margin-left:-2em;
+ 
+    }
+    .tablet .footer .footerkontakt .footerkontakt2dio .drustveneslike img:nth-child(2){
+        width:3em;
+        margin-left:-1em;
+ 
+    }
+
+    .tablet .footer .footercrnidio{
+        background-color:black;
+        position: relative;
+        margin-top:5vw;
+    }
+
+    .tablet .footer .footercrnidio ul{
+        display:flex;
+        font-size: 0.8em;
+        padding-left:7.5vw;
+        list-style-type: none;
+        padding-right:7.5vw;
+        justify-content: space-between;
+        padding-top:2em;
+        padding-bottom:2em;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .tablet .footer .footercrnidio .footervertikalnacrta{
+        width:.1vw;
+        height:2vw;
+        background-color:white;
+    }
+
+
+
+    .zoom{
+        display:block;
+        background-color:black;
+        width:100vw;
+        height:80vh;
+        position:absolute;
+        top:0em;
+ 
+    }
+
+    
+
+    
+
+    .zoom img{
+        padding-top:2vw;
+        width: 100vw;
+    }
+
+    .zoom :nth-child(2){
+        width:11em;
+        margin-left:.4em;
+        margin-top:-2vw;
+    }
+
+    .zoom :nth-child(3){
+        width:11em;
+        
+        margin-top:-2vw;
+    }
+
+    .zoom :nth-child(4){
+        width:11em;
+        
+        margin-top:-2vw;
+    }
+
+    .zoom{
+        display:none;
+    }
+
+    .zoom .izlazZoom #xx{
+        width:3vw;
+        position:absolute;
+        top:2vw;
+        right:5vw;
+    }
+
+    .zoom .crticazoom{
+        display:block;
+        position:absolute;
+        width:11em;
+        height:.4em;
+        margin-left:.4em;
+        background-color:rgb(15, 181, 247);
+        margin-top:-.5em;
+
+    }
+    
+} 
+
+
+/* PC-------------------------------------------------------------------------------------------------------------*/
+
+@media only screen and (min-width:1281px){
+    .malimobitel{
+        display:none;
+    }
+
+    .tablet .header{
+        background-color:black;
+        width: 100vw;
+        height:9em;
+        position:relative;
+       
+        
+    }
+
+   
+    .navigacija{
+    
+       display:none;
+        
+    }
+
+    .pcheader{
+        width:100vw;
+        height:9em;
+        background-color:black;
+        align-items: center;
+        display:flex;
+        position:absolute;
+        top:0;
+    }
+
+    .pcheaderlogoitekst{
+        display:flex;
+        align-items: center;
+        padding-left:5vw;
+        
+    }
+    
+    .pcheaderslika img{
+        width:6em;
+        cursor:pointer;
+    }
+
+    .pcheadertekst{
+        color:White;
+        font-family: Arial, Helvetica, sans-serif;
+        display:flex;
+        flex-direction: column;
+        padding-left:5vw;
+        font-size:1.5em;
+        
+    }
+
+    .pcheadertekst p:nth-child(2){
+        font-size:.7em;
+        padding-top:1vw;
+        transform:translate(2em);
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    .pcheaderlinija{
+        width:100vw;
+        height:.1vw;
+        background-color:rgb(17, 17, 17);
+    }
+    
+    
+    .tablet .sivalista{
+        display:block;
+        background-color:black;
+        opacity: 0.8;
+        width:85vw;
+        
+        z-index:5;
+        position:absolute;
+        top:10em;
+        margin-left:7.5vw;
+
+    }
+
+    .tablet .sivalista ul{
+        display:flex;
+        justify-content: space-around;
+        list-style-type: none;
+        
+    }
+
+    .tablet .sivalista ul li{
+        text-decoration: none;
+        padding:1vw;
+        cursor:pointer;
+        color:white;
+        font-weight: bold;
+        font-size:14px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+   
+
+    .tablet .sivalista ul li:nth-child(1) a{
+        text-decoration: none;
+        color:rgb(7, 174, 252);
+        font-weight: bold;
+       
+        font-size:14px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .tablet .sivalista ul li:nth-child(2) a{
+        text-decoration: none;
+        color:rgb(255, 255, 255);
+        font-weight: bold;
+       
+        font-size:14px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .tablet .sivalista ul li:nth-child(3) a{
+        text-decoration: none;
+        color:rgb(255, 255, 255);
+        font-weight: bold;
+       
+        font-size:14px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .tablet .sivalista ul li:nth-child(4) a{
+        text-decoration: none;
+        color:rgb(255, 255, 255);
+        font-weight: bold;
+       
+        font-size:14px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .tablet .sivalista ul li:nth-child(5) a{
+        text-decoration: none;
+        color:rgb(255, 255, 255);
+        font-weight: bold;
+       
+        font-size:14px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    
+
+    .tablet .uvod .slika{        
+        width:100vw;       
+        position:relative;       
+    }
+
+    .tablet .uvod .slika img{
+        width:100vw;
+        position:relative;
+    }
+
+    .tablet .uvod .vrstaklase{
+        font-family: Arial, Helvetica, sans-serif;
+        position:absolute;
+        
+        top:10em;
+        left:7.5vw;
+        color:White;
+    }
+
+    .tablet .tabletopacityblok{
+        width:40vw;
+        height:37.3vw;
+        display:block;
+        background: rgb(0,0,0);
+        background: linear-gradient(90deg, rgba(0,0,0,0.6530987394957983) 0%, rgba(11,11,11,0.35898109243697474) 29%, rgba(23,23,23,0.16850490196078427) 63%, rgba(48,48,48,0) 100%);
+        position:absolute;
+        top:9em;
+        
+    }
+
+    .tablet .opis1{
+        font-family: Arial, Helvetica, sans-serif;
+        position:absolute;
+        top:19em;
+        left:7.5vw;
+        color:White;
+    }
+
+    /* sivocrni kontenjer */
+
+    .sivocrnikontenjer{
+        position:relative;
+        width: 100vw;
+        height:auto;
+        display:block;
+        background: rgb(41,41,41);
+        background: linear-gradient(180deg, rgba(41,41,41,1) 0%, rgba(28,28,28,1) 29%, rgba(0,0,0,1) 97%, rgba(0,0,0,1) 100%);
+    }
+
+    .sivocrnikontenjer .znacajke{
+        color:white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        padding-top:8vw;
+        padding-left:7.5vw;
+    }
+
+    .sivocrnikontenjer .posebna{
+        color:white;
+        font-family: Arial, Helvetica, sans-serif;
+        padding-top:3vw;
+        padding-left:7.5vw;
+        
+    }
+
+    .sivocrnikontenjer .posebnap{
+        color:white;
+        font-family: Arial, Helvetica, sans-serif;
+        
+        padding-top:2vw;
+        padding-right:7.5vw;
+        padding-left:7.5vw;
+    }
+
+    .sivocrnikontenjer .crtica{
+        width:5vw;
+        margin-left: 7.5vw;
+        margin-top:1vw;
+        border:1px white thick;
+    }
+
+    .tabletslike1 img:nth-child(1){
+        width:50vw;
+        padding-left:7.5vw;
+        padding-top:3vw;
+        cursor:pointer;
+    }
+
+    .tabletslike1 img:nth-child(2){
+        width:25vw;
+        transform:translate(2vw,-14vw);
+        cursor:pointer;
+        
+    }
+
+    .tabletslike1 img:nth-child(3){
+        width:20vw;
+        transform:translate(60vw,-11.8vw);
+        cursor:pointer;
+    }
+
+    .sivocrnikontenjer .znacajke2{
+        color:white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        
+        padding-left:7.5vw;
+    }
+
+    .sivocrnikontenjer .posebna2{
+        color:white;
+        font-family: Arial, Helvetica, sans-serif;
+        padding-top:3vw;
+        padding-left:7.5vw;
+    }
+
+    .sivocrnikontenjer .posebnap2{
+        color:white;
+        font-family: Arial, Helvetica, sans-serif;
+        
+        padding-top:2vw;
+        padding-right:7.5vw;
+        padding-left:7.5vw;
+    }
+
+    .sivocrnikontenjer .tabletslike2 {   
+        padding-top:3vw;      
+        padding-left:7.5vw;      
+        padding-right:7.5vw;
+        display:flex;
+        
+    }
+    .sivocrnikontenjer .tabletslike2 .interijer{
+       margin-left:2vw;
+       cursor:pointer;
+       overflow:hidden;
+       
+        
+    }
+
+    .testing{
+        overflow:hidden;
+        cursor:pointer;
+       
+    }
+
+    .testing2{
+        overflow:hidden;
+        
+
+    }
+
+    @keyframes pcZoomIn{
+        0%{transform:scale(1)}    
+        
+        100%{transform:scale(1.2);}
+        
+    }
+
+    @keyframes pcZoomOut{
+        0%{transform:scale(1.2)}    
+        
+        100%{transform:scale(1);}
+        
+    }
+    
+    
+
+    .sivocrnikontenjer .tabletslike2 p{
+        color:white;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .sivocrnikontenjer .tabletslike2 img{
+        width:41.5vw;
+        
+    }
+
+    .pcCrniZoom{
+        display:flex;
+        position:absolute;
+    }
+
+    .pcCrniZoom .zoom1{
+        width:41.5vw;
+        height:24.5vw;
+        background-color:black;
+        opacity:0;
+        cursor:pointer;
+        
+    }
+
+
+    .pcCrniZoom .zoom2{
+        width:41.6vw;
+        height:24.5vw;
+        background-color:black;
+        margin-left:3.9vh;
+        opacity:0;
+        cursor:pointer;
+    }
+
+    .zoom2 p{
+        text-align:center;
+        padding-top:11vw;
+        font-weight:bold;
+        font-family: Arial, Helvetica, sans-serif;
+        color:white;
+
+    }
+    .zoom1 p{
+        text-align:center;
+        padding-top:11vw;
+        font-weight:bold;
+        font-family: Arial, Helvetica, sans-serif;
+        color:white;
+
+    }
+
+    @keyframes pcZoomCrno{
+        0%{opacity:0}    
+        
+        100%{opacity:0.8}
+        
+    }
+
+    @keyframes pcZoomCrnoR{
+        0%{opacity:0.8}    
+        
+        100%{opacity:0}
+        
+    }
+
+    
+    .sivocrnikontenjer .znacajke3{
+        color:white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        padding-top:8vw;
+        padding-left:7.5vw;
+    
+    }
+    .sivocrnikontenjer .posebna3{
+        color:white;
+        padding-left:7.5vw;
+        padding-right:7.5vw;
+        padding-top:2vw;
+        font-family: Arial, Helvetica, sans-serif;
+        
+    }
+
+    .sivocrnikontenjer .posebnap3{
+        color:white;
+        padding-left:7.5vw;
+        padding-top:2vw;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .sivocrnikontenjer .posebnaa{
+        color:white;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .sivocrnikontenjer .komfor{
+        display:flex;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .sivocrnikontenjer .komfor .komforslika img{
+        width:40vw;
+        
+    }
+
+    .sivocrnikontenjer .komfor .komforslika{
+        padding-left:7.5vw;
+        padding-top:3vw;
+    }
+
+    .sivocrnikontenjer .komfor .komforopis .posebnaa{
+        padding-top:3vw;
+        padding-left:3vw;
+        
+    }
+
+    .sivocrnikontenjer .komfor .komforopis ul{
+        color:White;
+        padding-left:5vw;
+        padding-top:2vw;
+    }
+
+    .sivocrnikontenjer .komfor .komforopis ul li{
+        color:White;
+        padding-top:2vw;
+    }
+
+    .sivocrnikontenjer .komfordugme{
+        color:white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        text-align:center;
+        width:15vw;
+        background-color:rgb(0, 137, 190);
+        padding:1vw;
+        transform:translate(52vw,-5vw);
+        
+    }
+
+
+    .sivocrnikontenjer .znacajke4{
+        color:white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        padding-top:3vw;
+        padding-left:7.5vw;
+    
+    }
+
+    .sivocrnikontenjer .posebna4{
+        color:white;
+        padding-left:7.5vw;
+        padding-right:7.5vw;
+        padding-top:2vw;
+        font-family: Arial, Helvetica, sans-serif;
+        
+    }
+
+    .sivocrnikontenjer .posebnap4{
+        color:white;
+        padding-left:7.5vw;
+        padding-top:2vw;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .sivocrnikontenjer .posebnaa2{
+        color:white;
+        
+        font-family: Arial, Helvetica, sans-serif;
+    }
+   
+    .sivocrnikontenjer .sigurnost{
+        display:flex;
+        justify-content: space-between;
+        padding-left:7.5vw;
+        padding-right:7.5vw;
+        padding-top:5vw;
+        color:White;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .sivocrnikontenjer .sigurnost ul{
+        padding-top:2vw;
+        padding-left:2vw;
+    }
+
+    .sivocrnikontenjer .sigurnost ul li{
+        padding-top:1vw;
+       
+    }
+    .sivocrnikontenjer .sigurnost .sigurnostslika img{
+        width:40vw;
+        margin-left:-50vw;
+    }
+
+    .sivocrnikontenjer .sigurnostdugme{
+        color:white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        text-align:center;
+        width:15vw;
+        background-color:rgb(0, 137, 190);
+        padding:1vw;
+        margin-left:7.5vw;
+        
+        margin-top:-5vw;
+        
+
+    }
+
+    .sivocrnikontenjer .znacajke5{
+        color:white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        padding-top:8vw;
+        padding-left:7.5vw;
+    
+    }
+
+    .sivocrnikontenjer .posebna5{
+        color:white;
+        padding-left:7.5vw;
+        padding-top:2vw;
+        font-family: Arial, Helvetica, sans-serif;
+        
+    }
+
+    .sivocrnikontenjer .posebnap5{
+        color:white;
+        padding-left:7.5vw;
+        padding-top:2vw;
+        padding-right:7.5vw;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .sivocrnikontenjer .specifikacije{
+        display:Flex;
+        color:white;
+        padding-left:7.5vw;
+        padding-right:7.5vw;
+    }
+
+    .sivocrnikontenjer .specifikacijeslika img{
+        width:50vw;
+        margin-left:5vw;
+        
+    }
+
+
+    .sivocrnikontenjer .specifikacije .lista1-1{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size:2em;
+    }
+
+    .sivocrnikontenjer .specifikacije .lista1-2{
+        font-family: Arial, Helvetica, sans-serif;
+        
+    }
+
+    .sivocrnikontenjer .specifikacije .lista1-3{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size:2em;
+    }
+    .sivocrnikontenjer .specifikacije .lista1-4{
+        font-family: Arial, Helvetica, sans-serif;
+       
+    }
+    .sivocrnikontenjer .specifikacije .lista1-5{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size:2em;
+    }
+    .sivocrnikontenjer .specifikacije .lista1-6{
+        font-family: Arial, Helvetica, sans-serif;
+        
+    }
+
+    .sivocrnikontenjer .specifikacije{
+        padding-top:2em;
+    }
+
+    
+    .sivocrnikontenjer .specifikacije .tabletliste p:nth-child(2){
+        padding-top:2vw;
+    }
+    
+    .sivocrnikontenjer .specifikacije .tabletliste hr:nth-child(3){
+        margin-top:2vw;
+        width:30vw;
+    }
+
+    .sivocrnikontenjer .specifikacije .tabletliste p:nth-child(4){
+        padding-top:2vw;
+    }
+
+    .sivocrnikontenjer .specifikacije .tabletliste p:nth-child(5){
+        padding-top:2vw;
+    }
+
+    .sivocrnikontenjer .specifikacije .tabletliste hr:nth-child(6){
+        margin-top:2vw;
+        width:30vw;
+    }
+
+    .sivocrnikontenjer .specifikacije .tabletliste p:nth-child(7){
+        padding-top:2vw;
+        padding-right:2vw;
+    }
+
+    .sivocrnikontenjer .specifikacije .tabletliste p:nth-child(8){
+        padding-top:2vw;
+        
+    }
+
+    .sivocrnikontenjer .specifikacijedugme{
+
+        display:block;
+        width:20vw;
+        
+        text-align:center;
+        color:white;
+        background-color:rgb(0, 137, 190);
+        
+        margin-left:7.5vw;
+        margin-top:2vw;
+        padding:1vw;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+
+    }
+
+    .sivocrnikontenjer .specifikacijepotrosnja{
+        color:White;
+        font-family: Arial, Helvetica, sans-serif;
+        padding-left:7.5vw;
+        padding-right:7.5vw;
+        padding-top:3vw;
+    }
+
+    .sivocrnikontenjer .sivitekst{
+        color:grey;
+        padding-left:7.5vw;
+        padding-right:7.5vw;
+        padding-top:2vw;
+        padding-bottom:2em;
+    }
+
+
+    
+    .sivocrnikontenjer .znacajke6{
+        color:white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        padding-top:8vw;
+        padding-left:7.5vw;
+    
+    }
+
+    .sivocrnikontenjer .posebna6{
+        color:white;
+        padding-left:7.5vw;
+        padding-top:2vw;
+        font-family: Arial, Helvetica, sans-serif;
+        
+    }
+
+    .sivocrnikontenjer .amgID .slikaAMG {
+       width:85vw;
+       padding-left:7.5vw;
+       padding-top:3vw;
+    }
+
+
+
+    /* AMG */ 
+
+    .tablet .amgID .amglista{
+        display:flex;
+        color:White;
+        font-family: Arial, Helvetica, sans-serif;
+        padding-left:7.5vw;
+        padding-right:7.5vw;
+        padding-top:5vw;
+        justify-content: space-between;
+ 
+    }
+
+    .tablet .amgID .amglista .amgvertikala{
+        background-color:rgb(0, 137, 190);
+        width:.1vw;
+        height:15vw;
+    }
+
+  
+
+ 
+
+    .tablet .amgID .amglista .lista2-2{
+        font-size:3vw;
+        padding-top:3vw;
+    }
+
+    .tablet .amgID .amglista .lista2-4{
+        font-size:3vw;
+        padding-top:3vw;
+    }
+
+    .tablet .amgID .amglista .lista2-5{
+        
+        padding-top:3vw;
+    }
+
+    .tablet .amgID .amglista .lista2-7{
+        
+        padding-top:3vw;
+        font-size:3vw;
+    }
+
+    .tablet .amgdugme{
+        display:block;
+        width:20vw;
+        text-align:center;
+        background-color:rgb(0, 137, 190);
+        margin-left:7.5vw;
+        margin-top:2vw;
+        
+    }
+
+    .tablet .amgdugme p{
+            color:white;
+            padding:1vw;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+    }
+
+
+    .tablet .amgopis{
+        color:white;
+        font-family: Arial, Helvetica, sans-serif;
+        padding-left:7.5vw;
+        padding-right:7.5vw;
+        padding-top:3vw;
+    }
+
+    .tablet .amgsivitekst{
+        color:grey;
+        font-family: Arial, Helvetica, sans-serif;
+        padding-left:7.5vw;
+        padding-right:7.5vw;
+        padding-top:3vw;
+        padding-bottom:5vw;
+        
+    }
+
+    .tablet .footer{
+        background-color:rgb(32, 32, 32);
+        width:100vw;
+        
+        position:absolute;
+        height:33vw;
+        display:block;
+        color:white;
+        font-family: Arial, Helvetica, sans-serif;
+        
+    }
+
+
+    /*footer*/
+   
+
+    .tablet .footer .lokacija{
+        display:Flex;
+        padding-left:7.5vw;
+        font-weight: bold;
+        padding-top:2vw;
+    }
+
+    .tablet .footer .lokacija p:nth-child(2){
+        color:rgb(0, 137, 190);
+        padding-left:1vw;
+    }
+
+    .tablet .footer .footercrtica{
+        background-color:rgb(252, 252, 252);
+        width:85vw;
+        height:.1vw;
+        margin-left:7.5vw;
+        margin-right:7.5vw;
+        margin-top:2vw;
+
+    }
+
+    .tablet .footer .footerkontakt .footerkontakt1dio #footerkontakt{
+        padding-left:7.5vw;
+        padding-top:2vw;
+        font-size:3vw;
+        
+    }
+
+    .tablet .footer .footerkontakt .footerkontakt1dio p:nth-child(2){
+        padding-left:7.5vw;
+        padding-top:2vw;
+        
+        
+    }
+
+    .tablet .footer .footerkontakt .footerkontakt1dio .blok1{
+        display:flex;
+        
+        width:50vw;
+        margin-left:7.5vw;
+    }
+    .tablet .footer .footerkontakt .footerkontakt1dio .blok1 input{
+        
+        margin-top:2vw;
+        width:30vw;
+        padding:1vw;
+        
+        
+    }
+
+    .tablet .footer .footerkontakt .footerkontakt1dio .blok1 .footerdugme{
+        background-color:rgb(53, 53, 53);
+        font-family: Arial, Helvetica, sans-serif;
+        display:flex;
+        align-items: center;
+        width:14vw;
+        justify-content: center;
+        height:5vw;
+        margin-top:2vw;
+        margin-left:2vw;
+    
+    }
+
+    .tablet .footer .footerkontakt{
+        display:Flex;
+        margin-top:1vw;
+        
+        
+
+    }
+    
+    .tablet .footer .footerkontakt .footerkontakt2dio .drustveneslike{
+        
+        display:flex;
+        flex-direction: row;
+        align-items:center;
+        justify-content: center;
+        
+        
+    }
+    .tablet .footer .footerkontakt .footerkontakt2dio .drustvene{
+        
+        height:3em;
+    }
+
+    .tablet .footer .footerkontakt .footerkontakt2dio .drustveneslike img{
+        width:3em;
+        padding-left:1em;
+        
+       
+    }
+
+    .tablet .footer .footerkontakt .footerkontakt2dio .drustveneslike img:nth-child(1){
+        width:3em;
+        margin-left:-2em;
+ 
+    }
+    .tablet .footer .footerkontakt .footerkontakt2dio .drustveneslike img:nth-child(2){
+        width:3em;
+        margin-left:-1em;
+ 
+    }
+
+    .tablet .footer .footercrnidio{
+        background-color:black;
+        position: relative;
+        margin-top:5vw;
+        height:7vw;
+    }
+
+    .tablet .footer .footercrnidio ul{
+        display:flex;
+        font-size: 0.8em;
+        padding-left:7.5vw;
+        list-style-type: none;
+        padding-right:7.5vw;
+        justify-content: space-between;
+        padding-top:3vw;
+        padding-bottom:2em;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .tablet .footer .footercrnidio .footervertikalnacrta{
+        width:.1vw;
+        height:2vw;
+        background-color:white;
+    }
+
+
+
+    .zoom{
+        display:block;
+        background-color:black;
+        width:90vw;
+        margin-left:5vw;
+        position:absolute;
+        top:0em;
+ 
+    }
+
+    @keyframes zoomDesnoCrtica{
+        0%{transform:translate(0vw)}    
+        
+        100%{transform:translate(9.4vw);}
+        
+    }
+
+    
+
+    @keyframes zoomLivoCrtica{
+        0%{transform:translate(9.4vw)}    
+        
+        100%{transform:translate(0vw);}
+        
+    }
+
+    .zoom img{
+        padding-top:2vw;
+        width: 90vw;
+    }
+    body{
+        background-color:black;
+    }
+
+    .zoom :nth-child(2){
+        width:11em;
+        margin-left:.4em;
+        margin-top:-2vw;
+    }
+
+    .zoom :nth-child(3){
+        width:11em;
+        
+        margin-top:-2vw;
+    }
+
+    .zoom :nth-child(4){
+        width:11em;
+        
+        margin-top:-2vw;
+    }
+
+    .zoom{
+        display:none;
+    }
+
+    .zoom .crticazoom{
+        display:block;
+        position:absolute;
+        width:11em;
+        height:.4em;
+        margin-left:.4em;
+        background-color:rgb(15, 181, 247);
+        margin-top:-.5em;
+
+    }
+
+    .zoom .izlazZoom #xx{
+        width:3vw;
+        position:absolute;
+        top:2vw;
+        right:5vw;
+    }
+    
+}
