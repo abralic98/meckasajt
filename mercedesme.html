@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="mercedesme.css">
+    
     <title>Mercedes-ME</title>
 </head>
 <body>
@@ -22,19 +23,20 @@
                 <p>Molimo unesite svoju adresu e-poste</p>
             </div>
             <div class="input">
-                <input placeholder="Vasa E-mail Adresa" id="logininput" type="text">
+                <input placeholder="Vasa E-mail Adresa" id="loginmejl" type="text">
+                <input placeholder="Vasa lozinka" id="loginsifra" type="text">
                 <div class="input2">
                     <p>Zapamti me</p>
                     <input type="radio">
                 </div>
             </div>
-            <div class="dugme">
-                <p>Dalje</p>
+            <div id="dugmePrijava"class="dugme">
+                <p>Prijavi Se</p>
             </div>
 
             <div class="registracija">
                 <p>Jos nemate Mercedes me ID?</p>
-                <a href="">Registracija</a>
+                <a  id="registracija" href="#">Registracija</a>
             </div>
 
             <div class="footer">
@@ -42,5 +44,51 @@
             </div>
         </div>
     </div>
+
+    <div class="kontenjer1">
+        <div class="bekgrand">
+            <img src="images/pc/mercedesme.jpg" alt="">
+        </div>
+        <div class="login">
+            
+            <header>
+                <p>Registracija</p>
+            </header>
+            <div class="paragraf1">
+                <h2>Mercedes me ID</h2>                
+            </div>
+            <div class="inputreg">
+                <input placeholder="Vasa Korisnicko ime" id="regime" type="text">
+                <input placeholder="Vasa E-mail Adresa" id="regmejl" type="text">
+                <input placeholder="Vasa lozinka" id="regsifra" type="text">
+            </div>
+
+            <div class="labelreg">
+                <p>Korisnicko Ime</p>
+                <p>E-mail</p>
+                <p>Lozinka</p>
+            </div>
+            <div id="dugmeReg" class="dugme">
+                <p>Registriraj se </p>
+            </div>
+
+            <div class="registracija">
+                <p>Imate vec Mercedes me ID?</p>
+                <a  id="prijava" href="#">Prijava</a>
+            </div>
+
+            
+
+            <div class="footer">
+                <p>Pravne napomene</p>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="db.json"></script>
+    <script src="register.js"></script>
+   
+    
 </body>
 </html>

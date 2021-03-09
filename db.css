@@ -1,0 +1,62 @@
+body{
+    margin:0;
+    padding:0;
+}
+
+.navbar{
+    background-color:black;
+    display:flex;
+    padding-left:5vw;
+    padding-right:5vw;
+    width:100vw;
+    height:5em;
+    align-items: center;
+}
+
+.navbar a{
+    color:white;
+    text-decoration: none;
+    font-size:1.5em;
+    font-weight:bold;
+}
+
+.navbar a:nth-child(2){
+    position:Absolute;
+    right:5vw;
+}
+
+.navbar a:nth-child(3){
+    position:Absolute;
+    right:12vw;
+}
+
+.tablica table{
+    width:50vw;
+    position:Absolute;
+    left:15vw;
+    
+    top:10vw;
+}
+.tablica table thead{
+    
+    background-color:black;
+}
+
+.tablica table thead tr th{
+    color:white;
+    font-size:1.5em;
+    padding:1em;
+    
+}
+
+.tablica table tbody{
+    background-color:whitesmoke;
+}
+.tablica table tbody tr:hover{
+    background-color: skyblue;
+}
+
+.tablica table tbody tr th{
+    padding:1em;
+}
+

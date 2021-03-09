@@ -1,0 +1,29 @@
+[
+    {
+        "name":"ante",
+        "email":"ante.bralic2@gmail.com",
+        "password":"152i",
+        "ID":1,
+        "auto":"S-klasa"
+    },
+
+    {
+        "name":"kristijan",
+        "email":"kristijan@gmail.com",
+        "password":"64k",
+        "ID":2,
+        "auto":"a-klasa"
+    },
+
+    {
+        "name":"asdo",
+        "email":"asda@gmail.com",
+        "password":"1234",
+        "ID":3,
+        "auto":"b-klasa"
+    }
+
+   
+]
+
+
