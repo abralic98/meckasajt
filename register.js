@@ -49,7 +49,7 @@ function registrirajSe(){
 
     for(let i=0; i<inputi.length; i++){
         if(inputi[i].style.borderColor=="red"){
-            console.log("crveno");
+
             let DaNe=0;
             return;
         }

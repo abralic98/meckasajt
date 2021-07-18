@@ -97,8 +97,6 @@ let amg;
     if(url=="http://127.0.0.1:5500/a-klasa-kompaktna.html?bklasa=b"|| url=="https://abralic98.github.io/meckasajt/a-klasa-kompaktna.html?bklasa=b"){ //b klasa JEDINA KOJA RADI ZA TABLET I FON NEMAM VOLJE DA RADIM ZA TABLET I FON ZA OSTALE VEC SAMO ZA FON SAM NAPRAVIA
     // SVE JE PO OVOM PRINCIPU SA KLASAMA I FOR PETLJOM FOR IDE i<2 ZATO JER JE SAMO FON I TABLET DA SAM TIA I ZA PC BILO BI 3 
 
-    console.log("bklasa");
-
     window.onload=function(){
         autiImeStranice=document.getElementsByClassName("autiImeStranice");
         for(let i=0; i<2; i++){
@@ -263,7 +261,6 @@ let amg;
 // LIMUZINE
 
 if(url=="http://127.0.0.1:5500/a-klasa-kompaktna.html?aklasalimuzina=a" || url=="https://abralic98.github.io/meckasajt/a-klasa-kompaktna.html?aklasalimuzina=a"){
-    console.log("aklasalimuzina");
 
     window.onload=function(){
         autiImeStranice=document.getElementById("autiImeStranice").innerHTML="A-klasa Limuzina"
@@ -331,7 +328,6 @@ if(url=="http://127.0.0.1:5500/a-klasa-kompaktna.html?aklasalimuzina=a" || url==
 }
 
 if(url=="http://127.0.0.1:5500/a-klasa-kompaktna.html?cklasalimuzina=c" || url=="https://abralic98.github.io/meckasajt/a-klasa-kompaktna.html?cklasalimuzina=c"){
-    console.log("aklasalimuzina");
 
     window.onload=function(){
         autiImeStranice=document.getElementById("autiImeStranice").innerHTML="C-klasa Limuzina"
@@ -400,7 +396,6 @@ if(url=="http://127.0.0.1:5500/a-klasa-kompaktna.html?cklasalimuzina=c" || url==
 
 
 if(url=="http://127.0.0.1:5500/a-klasa-kompaktna.html?eklasalimuzina=e" || url=="https://abralic98.github.io/meckasajt/a-klasa-kompaktna.html?eklasalimuzina=e"){
-    console.log("eklasalimuzina");
 
     window.onload=function(){
         autiImeStranice=document.getElementById("autiImeStranice").innerHTML="E-klasa Limuzina"
@@ -470,7 +465,6 @@ if(url=="http://127.0.0.1:5500/a-klasa-kompaktna.html?eklasalimuzina=e" || url==
 
 
 if(url=="http://127.0.0.1:5500/a-klasa-kompaktna.html?sklasalimuzina=s" || url=="https://abralic98.github.io/meckasajt/a-klasa-kompaktna.html?sklasalimuzina=s"){
-    console.log("sklasalimuzina");
 
     window.onload=function(){
         autiImeStranice=document.getElementById("autiImeStranice").innerHTML="S-klasa Limuzina"
@@ -547,7 +541,6 @@ if(url=="http://127.0.0.1:5500/a-klasa-kompaktna.html?sklasalimuzina=s" || url==
 
 
 if(url=="http://127.0.0.1:5500/a-klasa-kompaktna.html?karavan=1"){
-    console.log("karavan1");
 
     window.onload=function(){
         autiImeStranice=document.getElementById("autiImeStranice").innerHTML="S-klasa Limuzina"
@@ -616,7 +609,6 @@ if(url=="http://127.0.0.1:5500/a-klasa-kompaktna.html?karavan=1"){
 
 
 if(url=="http://127.0.0.1:5500/a-klasa-kompaktna.html?karavan=2"){
-    console.log("karavan2");
 
     window.onload=function(){
         autiImeStranice=document.getElementById("autiImeStranice").innerHTML="S-klasa Limuzina"
@@ -685,7 +677,6 @@ if(url=="http://127.0.0.1:5500/a-klasa-kompaktna.html?karavan=2"){
 
 
 if(url=="http://127.0.0.1:5500/a-klasa-kompaktna.html?karavan=3"){
-    console.log("karavan3");
 
     window.onload=function(){
         autiImeStranice=document.getElementById("autiImeStranice").innerHTML="S-klasa Limuzina"
@@ -754,7 +745,6 @@ if(url=="http://127.0.0.1:5500/a-klasa-kompaktna.html?karavan=3"){
 
 
 if(url=="http://127.0.0.1:5500/a-klasa-kompaktna.html?karavan=4"){
-    console.log("karavan4");
 
     window.onload=function(){
         autiImeStranice=document.getElementById("autiImeStranice").innerHTML="S-klasa Limuzina"
@@ -827,7 +817,6 @@ if(url=="http://127.0.0.1:5500/a-klasa-kompaktna.html?karavan=4"){
 
 
 if(url=="http://127.0.0.1:5500/a-klasa-kompaktna.html?suv=1"){
-    console.log("suv1");
 
     window.onload=function(){
         autiImeStranice=document.getElementById("autiImeStranice").innerHTML="S-klasa Limuzina"
@@ -896,7 +885,6 @@ if(url=="http://127.0.0.1:5500/a-klasa-kompaktna.html?suv=1"){
 
 
 if(url=="http://127.0.0.1:5500/a-klasa-kompaktna.html?suv=2"){
-    console.log("suv2");
 
     window.onload=function(){
         autiImeStranice=document.getElementById("autiImeStranice").innerHTML="S-klasa Limuzina"
@@ -965,7 +953,6 @@ if(url=="http://127.0.0.1:5500/a-klasa-kompaktna.html?suv=2"){
 
 
 if(url=="http://127.0.0.1:5500/a-klasa-kompaktna.html?suv=3"){
-    console.log("suv3");
 
     window.onload=function(){
         autiImeStranice=document.getElementById("autiImeStranice").innerHTML="S-klasa Limuzina"
@@ -1034,7 +1021,6 @@ if(url=="http://127.0.0.1:5500/a-klasa-kompaktna.html?suv=3"){
 
 
 if(url=="http://127.0.0.1:5500/a-klasa-kompaktna.html?suv=4"){
-    console.log("suv4");
 
     window.onload=function(){
         autiImeStranice=document.getElementById("autiImeStranice").innerHTML="S-klasa Limuzina"
@@ -1103,7 +1089,6 @@ if(url=="http://127.0.0.1:5500/a-klasa-kompaktna.html?suv=4"){
 
 
 if(url=="http://127.0.0.1:5500/a-klasa-kompaktna.html?suv=5"){
-    console.log("suv5");
 
     window.onload=function(){
         autiImeStranice=document.getElementById("autiImeStranice").innerHTML="S-klasa Limuzina"
@@ -1172,7 +1157,6 @@ if(url=="http://127.0.0.1:5500/a-klasa-kompaktna.html?suv=5"){
 
 
 if(url=="http://127.0.0.1:5500/a-klasa-kompaktna.html?suv=6"){
-    console.log("suv6");
 
     window.onload=function(){
         autiImeStranice=document.getElementById("autiImeStranice").innerHTML="S-klasa Limuzina"
@@ -1244,8 +1228,6 @@ if(url=="http://127.0.0.1:5500/a-klasa-kompaktna.html?suv=6"){
 
 
 if(url=="http://127.0.0.1:5500/a-klasa-kompaktna.html?coupei=1"){
-    console.log("coupei1");
-
     window.onload=function(){
         autiImeStranice=document.getElementById("autiImeStranice").innerHTML="S-klasa Limuzina"
         autiImeStranice2=document.getElementById("autiImeStranice2").innerHTML="S-klasa Limuzina"
@@ -1313,7 +1295,6 @@ if(url=="http://127.0.0.1:5500/a-klasa-kompaktna.html?coupei=1"){
 
 
 if(url=="http://127.0.0.1:5500/a-klasa-kompaktna.html?coupei=2"){
-    console.log("coupei2");
 
     window.onload=function(){
         autiImeStranice=document.getElementById("autiImeStranice").innerHTML="S-klasa Limuzina"
@@ -1382,7 +1363,6 @@ if(url=="http://127.0.0.1:5500/a-klasa-kompaktna.html?coupei=2"){
 
 
 if(url=="http://127.0.0.1:5500/a-klasa-kompaktna.html?coupei=3"){
-    console.log("coupei3");
 
     window.onload=function(){
         autiImeStranice=document.getElementById("autiImeStranice").innerHTML="S-klasa Limuzina"
@@ -1451,7 +1431,6 @@ if(url=="http://127.0.0.1:5500/a-klasa-kompaktna.html?coupei=3"){
 
 
 if(url=="http://127.0.0.1:5500/a-klasa-kompaktna.html?coupei=4"){
-    console.log("coupei4");
 
     window.onload=function(){
         autiImeStranice=document.getElementById("autiImeStranice").innerHTML="S-klasa Limuzina"
@@ -1520,7 +1499,6 @@ if(url=="http://127.0.0.1:5500/a-klasa-kompaktna.html?coupei=4"){
 
 
 if(url=="http://127.0.0.1:5500/a-klasa-kompaktna.html?coupei=5"){
-    console.log("coupei5");
 
     window.onload=function(){
         autiImeStranice=document.getElementById("autiImeStranice").innerHTML="S-klasa Limuzina"
@@ -1589,7 +1567,6 @@ if(url=="http://127.0.0.1:5500/a-klasa-kompaktna.html?coupei=5"){
 
 
 if(url=="http://127.0.0.1:5500/a-klasa-kompaktna.html?coupei=6"){
-    console.log("coupei6");
 
     window.onload=function(){
         autiImeStranice=document.getElementById("autiImeStranice").innerHTML="S-klasa Limuzina"
@@ -1662,7 +1639,6 @@ if(url=="http://127.0.0.1:5500/a-klasa-kompaktna.html?coupei=6"){
 
 
 if(url=="http://127.0.0.1:5500/a-klasa-kompaktna.html?cabrieloti=1"){
-    console.log("cabrieloti1");
 
     window.onload=function(){
         autiImeStranice=document.getElementById("autiImeStranice").innerHTML="S-klasa Limuzina"
@@ -1731,7 +1707,6 @@ if(url=="http://127.0.0.1:5500/a-klasa-kompaktna.html?cabrieloti=1"){
 
 
 if(url=="http://127.0.0.1:5500/a-klasa-kompaktna.html?cabrieloti=2"){
-    console.log("cabrieloti2");
 
     window.onload=function(){
         autiImeStranice=document.getElementById("autiImeStranice").innerHTML="S-klasa Limuzina"
@@ -1800,7 +1775,6 @@ if(url=="http://127.0.0.1:5500/a-klasa-kompaktna.html?cabrieloti=2"){
 
 
 if(url=="http://127.0.0.1:5500/a-klasa-kompaktna.html?cabrieloti=3"){
-    console.log("cabrieloti3");
 
     window.onload=function(){
         autiImeStranice=document.getElementById("autiImeStranice").innerHTML="S-klasa Limuzina"
@@ -1869,7 +1843,6 @@ if(url=="http://127.0.0.1:5500/a-klasa-kompaktna.html?cabrieloti=3"){
 
 
 if(url=="http://127.0.0.1:5500/a-klasa-kompaktna.html?cabrieloti=4"){
-    console.log("cabrieloti4");
 
     window.onload=function(){
         autiImeStranice=document.getElementById("autiImeStranice").innerHTML="S-klasa Limuzina"
@@ -1980,7 +1953,6 @@ function zoomSlike(){
     let test1=document.getElementsByClassName("tablet");
     test1[0].style.display="none";
     test.style.display="block";
-    console.log("HD");
 }
 
 function ugasiZoom(){
@@ -2000,7 +1972,6 @@ function uvelicaj1(){
     zoomCRTA=1;
     let velika=document.getElementById("zoomVelika");
     let mala=document.getElementById("zoomSlika1");
-    console.log(zoomCRTA);
     
     velika.src=mala.src;
 }
@@ -2016,7 +1987,6 @@ function uvelicaj2(){
     zoomCRTA=2;
     let velika=document.getElementById("zoomVelika");
     let mala=document.getElementById("zoomSlika2");
-    console.log(zoomCRTA);
     velika.src=mala.src;
 }
 
@@ -2029,7 +1999,6 @@ function uvelicaj3(){
     zoomCRTA=3; 
     let velika=document.getElementById("zoomVelika");
     let mala=document.getElementById("zoomSlika3");
-    console.log(zoomCRTA);
     
     velika.src=mala.src;
 }
